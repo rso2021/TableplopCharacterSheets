@@ -1,0 +1,1159 @@
+{
+  "stats": {
+    "quick-instructions": {
+      "value": "<- double click the name",
+      "type": "text",
+      "section": "combat",
+      "__update": "V1.02 adds this block",
+      "__comment": "Tableplop D&D 5e Player Character Sheet, all classes, by @Corym. Version 1.03 2021-04-17 9:13 PM",
+      "expression": "\"<- double click the name\"",
+      "roll": "Many fields generate a roll or give instructions if you double click them, they may appear in the chat POSTING AS preview box first and then you have to hit send. You can also send a Saved Message with !m and the (case sensitive!) name of the message or enough of the name to uniquely identify it, try !m AT01"
+    },
+    "initiative": {
+      "value": 1,
+      "section": "combat",
+      "type": "number",
+      "roll": "!r initiative = 1d20 + initiative",
+      "expression": "dex"
+    },
+    "speed": {
+      "value": 30,
+      "section": "combat",
+      "type": "number"
+    },
+    "AC-Summary": {
+      "value": "Norm: 18 No Shield: 16",
+      "type": "text",
+      "section": "combat",
+      "expression": "\"Norm: \" + armor-class + \" No Shield: \" + (armor-class - ac-shield-bonus)"
+    },
+    "Inspiration": {
+      "value": false,
+      "type": "checkbox",
+      "section": "combat"
+    },
+    "shield-equipped": {
+      "value": true,
+      "type": "checkbox",
+      "section": "combat"
+    },
+    "attack-melee": {
+      "value": "AT01-Warhammer",
+      "type": "text",
+      "section": "combat",
+      "roll": "Warhammer (1 handed): Raw { attack-roll = 1d20@:csi-attack-suffix: } {csi-crit-message = ( attack-roll < crit-on-natural ? \" (norm) \" : \" (crit?) \")} {csi-crit-bonus-dice = (attack-roll < crit-on-natural ? +0 : +1)} To Hit {attack-roll + prof + str } damage  {@:csi-crit-bonus-dice + 1:d8 + str}  bludgeoning"
+    },
+    "attack-ranged": {
+      "value": "AT03-crossbow-light",
+      "type": "text",
+      "section": "combat",
+      "roll": "light crossbow (loading, 2 handed, range 80/320): Raw { attack-roll = 1d20@:csi-attack-suffix: } {csi-crit-message = ( attack-roll < crit-on-natural ? \" (norm) \" : \" (crit?) \")} {csi-crit-bonus-dice = (attack-roll < crit-on-natural ? +0 : +1)} To Hit {attack-roll + prof + dex }   damage  {@:csi-crit-bonus-dice + 1:d8} piercing"
+    },
+    "hit-points": {
+      "value": 2,
+      "section": "combat",
+      "type": "health",
+      "local": true
+    },
+    "hit-points-maximum": {
+      "value": 12,
+      "section": "combat",
+      "type": "number",
+      "hidden": true,
+      "parent": "hit-points",
+      "local": true
+    },
+    "hit-points-temporary": {
+      "value": 0,
+      "section": "combat",
+      "type": "number",
+      "local": true,
+      "hidden": true,
+      "parent": "hit-points"
+    },
+    "current-injuries": {
+      "value": "",
+      "type": "text-area",
+      "hidden": true,
+      "section": "combat"
+    },
+    "death-saves-failed": {
+      "value": 0,
+      "type": "checkboxes",
+      "section": "combat"
+    },
+    "death-saves-failed-max": {
+      "value": 3,
+      "type": "number",
+      "hidden": true,
+      "parent": "death-saves-failed"
+    },
+    "death-saves-made": {
+      "value": 0,
+      "type": "checkboxes",
+      "section": "combat",
+      "roll": "Need unmodified 10 {1d20}"
+    },
+    "death-saves-made-max": {
+      "value": 3,
+      "type": "number",
+      "hidden": true,
+      "parent": "death-saves-made"
+    },
+    "attack-with-advantage": {
+      "value": false,
+      "type": "checkbox",
+      "section": "combat"
+    },
+    "attack-with-disadvantage": {
+      "value": false,
+      "type": "checkbox",
+      "section": "combat"
+    },
+    "Ammo-type-A": {
+      "value": "bolts",
+      "type": "text",
+      "section": "combat"
+    },
+    "Ammo-owned-A": {
+      "value": 20,
+      "type": "number",
+      "section": "combat"
+    },
+    "ammo-used-A1": {
+      "value": "",
+      "type": "checkboxes",
+      "section": "combat"
+    },
+    "ammo-used-A1-max": {
+      "value": 10,
+      "type": "number",
+      "hidden": true,
+      "parent": "ammo-used-A1"
+    },
+    "ammo-used-A2": {
+      "value": "",
+      "type": "checkboxes",
+      "section": "combat"
+    },
+    "ammo-used-A2-max": {
+      "value": 10,
+      "type": "number",
+      "hidden": true,
+      "parent": "ammo-used-A2"
+    },
+    "combat-notes": {
+      "value": "<p>Mostly attack wielding Warhammer and Shield. Attacks are 1 handed Warhammer, 2 handed Warhammer, and light crossbow. They are on the Actions tab (tab 4) or can be accessed by pasting in chat \"!m AT01\", \"!m AT02\", or \"!m AT03\" (case sensitive) respectively.&nbsp;</p>",
+      "type": "text-area",
+      "section": "combat"
+    },
+    "at-will-acts": {
+      "value": "<p>Protection (Fighter style): every round (while shield equipped) as reaction impose disadvantage on 1 attack targeting ally within 5'</p>",
+      "type": "text-area",
+      "section": "at-will"
+    },
+    "short-rest-acts": {
+      "value": "<p>After any short rest can spend recovery dice to regain HP. Fighter regains Second Wind. Fighter level 2+ regains Action Surge (take 1 extra action once).</p>",
+      "type": "text-area",
+      "section": "short-rest"
+    },
+    "take-short-rest-now": {
+      "value": "<-double click label",
+      "type": "text",
+      "section": "short-rest",
+      "__update":  "V1.02 adds this block",
+      "__comment": "Credit to @Kickball for this idea and much of the implementation code https://discord.com/channels/690945390320812113/805432908067897345/831154379272880128",
+      "roll": "!h If wizard and Arcane Recovery not used can use now. If fighter reset Second Wind {second-wind-used = 0} and if level > 2 Action Surge {action-surge-used = 0}. If Cleric level 2+ reset Channel Divinity {channel-divinity-used= 0}",
+      "expression": "\"<-double click label\""
+    },
+    "HP-Recovery-dice": {
+      "value": 3,
+      "type": "number",
+      "section": "short-rest",
+      "expression": "level"
+    },
+    "Recovery-dice-used": {
+      "value": 0,
+      "type": "checkboxes",
+      "section": "short-rest",
+      "__update": "V1.02 changes this block",
+      "roll": "Recovery die attempted for {other-roll = ( Recovery-dice-used >= HP-Recovery-dice ? 0 : max(1d@:hit-die-size: + constitution, 0))} HP for a total of {hit-points = ( Recovery-dice-used < HP-Recovery-dice ? min(hit-points + other-roll, hit-points-maximum) : hit-points )} out of {hit-points-maximum} hit points. Check the box {Recovery-dice-used = ( Recovery-dice-used < HP-Recovery-dice ? Recovery-dice-used + 1 : Recovery-dice-used ) }",
+      "local": false
+    },
+    "Recovery-dice-used-max": {
+      "value": 3,
+      "type": "number",
+      "hidden": true,
+      "parent": "Recovery-dice-used",
+      "expression": "level"
+    },
+    "Second-Wind-used": {
+      "value": false,
+      "type": "checkbox",
+      "hidden": false,
+      "__update": "V1.02 changes this block",
+      "__comment": "APPLIES-TO-CLASS-Fighter: hide this control for all but Fighters.",
+      "section": "short-rest",
+      "roll": "Restore {other-roll = (1-Second-Wind-used) * (1d10 + level)} HP for a total of {hit-points = min(hit-points + other-roll, hit-points-maximum)} out of {hit-points-maximum} hit points. Check the box {Second-Wind-used = 1}"
+    },
+    "action-surge-used": {
+      "value": "",
+      "type": "checkbox",
+      "section": "short-rest",
+      "__update": "V1.02 adds this block",
+      "__comment": "APPLIES-TO-CLASS-Fighter: hide this control for all but Fighters. Also requires level 2+, and changes to 2 checkboxes at level 17.",
+      "__visible-if": "class='fighter' AND level > 1",
+      "hidden": true,
+      "roll": ""
+    },
+    "channel-divinity-used": {
+      "value": 0,
+      "__comment": "APPLIES-TO-CLASS-Cleric: hide this control for all but Clerics of level 2 an up",
+      "type": "checkboxes",
+      "__update": "V1.02 adds this block",
+      "section": "short-rest",
+      "roll": "",
+      "local": false
+    },
+    "channel-divinity-used-max": {
+      "value": 1,
+      "type": "number",
+      "hidden": true,
+      "__update": "V1.02 Changes this block",
+      "parent": "channel-divinity-used",
+      "expression": "( level > 1 ? 1 : 0) + ( level > 5 ? 1 : 0) + ( level > 17 ? 1 : 0)"
+    },
+    "daily-acts": {
+      "value": "<p>After long rest (1 per day, 8 hours min) regain all HP, regain Recovery Dice = 1/2 level</p><p>Wizards &amp; Clerics: recover spell slots,&nbsp;change prepared spells</p>",
+      "type": "text-area",
+      "__update": "V1.02 changes this block",
+      "section": "once-per-day"
+    },
+    "take-long-rest-now": {
+      "value": "<-double click label",
+      "type": "text",
+      "section": "once-per-day",
+      "__update": "V1.02 adds this block",
+      "__comment": "Credit to @Kickball for this idea and much of the implementation code https://discord.com/channels/690945390320812113/805432908067897345/831154379272880128",
+      "expression": "\"<-double click label\"",
+      "roll": "!h Taking a long rest. Regain all HP {hit-points = @:hit-points-maximum:} Regain level/2 (round up) recovery dice {recovery-dice-used = (recovery-dice-used <= ceil(level/2) ? 0 : recovery-dice-used - ceil(level/2))}, regain spell slots (NOTE: Attribute assignment bug means do individually){spell-slots-used-one=0}{spell-slots-used-two=0}{spell-slots-used-three=0}, reset Arcane Recovery {arcane-recovery-used = 0}, reset Second Wind {second-wind-used = 0}, If fighter level 2+ then reset Action Surge {action-surge-used = 0}. If Cleric level 2+ reset Channel Divinity {channel-divinity-used= 0}."
+    },
+    "arcane-recovery-used": {
+      "value": false,
+      "type": "checkbox",
+      "hidden": false,
+      "__comment": "APPLIES-TO-CLASS-Wizard: hide this control for all but Wizards.",
+      "section": "once-per-day",
+      "roll": "Recover {(1 - arcane-recovery-used) * ceil(level / 2)} levels of spell slots. Check the box {arcane-recovery-used = 1}"
+    },
+    "char-sheet-notes": {
+      "value": "<p>D&amp;D5e Character Sheet by Corym. You can delete this text (or replace it with your own notes) once you are familiar with the layout. This layout is optimized for play not creation, start with a printed sheet!</p><p>Tab 1: This tab, focused on frequently used stats like combat. &nbsp;Most values here are derived or temporary</p><p>Tab 2: Saving throws, senses, and skills.&nbsp;</p><p>Tab 3 : General character info, including most settings that drive this page.</p><p>Tab 4: Saved Messages (to send to Chat), including Attacks, Special Abilities, and Spells.</p>",
+      "type": "text-area",
+      "section": "About-Character-Sheet"
+    },
+    "Class-Benefits": {
+      "value": "<p>Fighting style (Choose 1: Protection - reaction to impose disadvantage on 1 attack against adjacent ally), Second Wind (1 per short rest, bonus action to recover 1d10 + level HP)</p>",
+      "type": "text-area",
+      "section": "Feats"
+    },
+    "strength-save": {
+      "expression": "strength + (strength-save-proficiency ? proficiency : 0)",
+      "value": 6,
+      "type": "saving-throw",
+      "section": "saving-throws",
+      "roll": "STR save: {1d20 + strength-save}"
+    },
+    "strength-save-proficiency": {
+      "parent": "strength-save",
+      "value": true,
+      "type": "checkbox",
+      "hidden": true
+    },
+    "dexterity-save": {
+      "expression": "dexterity + (dexterity-save-proficiency ? proficiency : 0)",
+      "value": 1,
+      "type": "saving-throw",
+      "section": "saving-throws",
+      "roll": "DEX save: {1d20 + dexterity-save}"
+    },
+    "dexterity-save-proficiency": {
+      "parent": "dexterity-save",
+      "value": false,
+      "type": "checkbox",
+      "hidden": true
+    },
+    "constitution-save": {
+      "expression": "constitution + (constitution-save-proficiency ? proficiency : 0)",
+      "value": 4,
+      "type": "saving-throw",
+      "section": "saving-throws",
+      "roll": "CON save: {1d20 + constitution-save}"
+    },
+    "constitution-save-proficiency": {
+      "parent": "constitution-save",
+      "value": true,
+      "type": "checkbox",
+      "hidden": true
+    },
+    "intelligence-save": {
+      "expression": "intelligence + (intelligence-save-proficiency ? proficiency : 0)",
+      "value": 0,
+      "type": "saving-throw",
+      "section": "saving-throws",
+      "roll": "INT save: {1d20 + intelligence-save}"
+    },
+    "intelligence-save-proficiency": {
+      "parent": "intelligence-save",
+      "value": false,
+      "type": "checkbox",
+      "hidden": true
+    },
+    "wisdom-save": {
+      "expression": "wisdom + (wisdom-save-proficiency ? proficiency : 0)",
+      "value": 1,
+      "type": "saving-throw",
+      "section": "saving-throws",
+      "roll": "WIS save: {1d20 + wisdom-save}"
+    },
+    "wisdom-save-proficiency": {
+      "parent": "wisdom-save",
+      "value": false,
+      "type": "checkbox",
+      "hidden": true
+    },
+    "charisma-save": {
+      "expression": "charisma + (charisma-save-proficiency ? proficiency : 0)",
+      "value": -2,
+      "type": "saving-throw",
+      "section": "saving-throws",
+      "roll": "CHA save: {1d20 + charisma-save}"
+    },
+    "charisma-save-proficiency": {
+      "parent": "charisma-save",
+      "value": false,
+      "type": "checkbox",
+      "hidden": true
+    },
+    "athletics": {
+      "expression": "strength + (athletics-proficiency ? proficiency : jack-of-all-trades ? (floor (proficiency / 2)) : 0) + (athletics-expertise ? proficiency : 0)",
+      "value": 6,
+      "subtitle": "str",
+      "type": "skill",
+      "section": "skills",
+      "roll": "Athletics check: {1d20 + athletics}"
+    },
+    "athletics-proficiency": {
+      "value": true,
+      "type": "checkbox",
+      "hidden": true,
+      "parent": "athletics"
+    },
+    "athletics-expertise": {
+      "value": false,
+      "type": "checkbox",
+      "hidden": true,
+      "parent": "athletics"
+    },
+    "acrobatics": {
+      "expression": "dexterity + (acrobatics-proficiency ? proficiency : jack-of-all-trades ? (floor (proficiency / 2)) : 0) + (acrobatics-expertise ? proficiency : 0)",
+      "value": 1,
+      "subtitle": "dex",
+      "type": "skill",
+      "section": "skills",
+      "roll": "Acrobatics check: {1d20 + acrobatics}"
+    },
+    "acrobatics-proficiency": {
+      "value": false,
+      "type": "checkbox",
+      "hidden": true,
+      "parent": "acrobatics"
+    },
+    "acrobatics-expertise": {
+      "value": false,
+      "type": "checkbox",
+      "hidden": true,
+      "parent": "acrobatics"
+    },
+    "sleight-of-hand": {
+      "expression": "dexterity + (sleight-of-hand-proficiency ? proficiency : jack-of-all-trades ? (floor (proficiency / 2)) : 0) + (sleight-of-hand-expertise ? proficiency : 0)",
+      "value": 1,
+      "subtitle": "dex",
+      "type": "skill",
+      "section": "skills",
+      "roll": "Sleight of hand check: {1d20 + sleight-of-hand}"
+    },
+    "sleight-of-hand-proficiency": {
+      "value": false,
+      "type": "checkbox",
+      "hidden": true,
+      "parent": "sleight-of-hand"
+    },
+    "sleight-of-hand-expertise": {
+      "value": false,
+      "type": "checkbox",
+      "hidden": true,
+      "parent": "sleight-of-hand"
+    },
+    "stealth": {
+      "expression": "dexterity + (stealth-proficiency ? proficiency : jack-of-all-trades ? (floor (proficiency / 2)) : 0) + (stealth-expertise ? proficiency : 0)",
+      "value": 1,
+      "subtitle": "dex",
+      "type": "skill",
+      "section": "skills",
+      "roll": "Stealth check: {1d20 + stealth}"
+    },
+    "stealth-proficiency": {
+      "value": false,
+      "type": "checkbox",
+      "hidden": true,
+      "parent": "stealth"
+    },
+    "stealth-expertise": {
+      "value": false,
+      "type": "checkbox",
+      "hidden": true,
+      "parent": "stealth"
+    },
+    "arcana": {
+      "expression": "intelligence + (arcana-proficiency ? proficiency : jack-of-all-trades ? (floor (proficiency / 2)) : 0) + (arcana-expertise ? proficiency : 0)",
+      "value": 0,
+      "subtitle": "int",
+      "type": "skill",
+      "section": "skills",
+      "roll": "Arcana check: {1d20 + arcana}"
+    },
+    "arcana-proficiency": {
+      "value": false,
+      "type": "checkbox",
+      "hidden": true,
+      "parent": "arcana"
+    },
+    "arcana-expertise": {
+      "value": false,
+      "type": "checkbox",
+      "hidden": true,
+      "parent": "arcana"
+    },
+    "history": {
+      "expression": "intelligence + (history-proficiency ? proficiency : jack-of-all-trades ? (floor (proficiency / 2)) : 0) + (history-expertise ? proficiency : 0)",
+      "value": 0,
+      "subtitle": "int",
+      "type": "skill",
+      "section": "skills",
+      "roll": "History check: {1d20 + history}"
+    },
+    "history-proficiency": {
+      "value": false,
+      "type": "checkbox",
+      "hidden": true,
+      "parent": "history"
+    },
+    "history-expertise": {
+      "value": false,
+      "type": "checkbox",
+      "hidden": true,
+      "parent": "history"
+    },
+    "investigation": {
+      "expression": "intelligence + (investigation-proficiency ? proficiency : jack-of-all-trades ? (floor (proficiency / 2)) : 0) + (investigation-expertise ? proficiency : 0)",
+      "value": 0,
+      "subtitle": "int",
+      "type": "skill",
+      "section": "skills",
+      "roll": "Investigation check: {1d20 + investigation}"
+    },
+    "investigation-proficiency": {
+      "value": false,
+      "type": "checkbox",
+      "hidden": true,
+      "parent": "investigation"
+    },
+    "investigation-expertise": {
+      "value": false,
+      "type": "checkbox",
+      "hidden": true,
+      "parent": "investigation"
+    },
+    "nature": {
+      "expression": "intelligence + (nature-proficiency ? proficiency : jack-of-all-trades ? (floor (proficiency / 2)) : 0) + (nature-expertise ? proficiency : 0)",
+      "value": 0,
+      "subtitle": "int",
+      "type": "skill",
+      "section": "skills",
+      "roll": "Nature check: {1d20 + nature}"
+    },
+    "nature-proficiency": {
+      "value": false,
+      "type": "checkbox",
+      "hidden": true,
+      "parent": "nature"
+    },
+    "nature-expertise": {
+      "value": false,
+      "type": "checkbox",
+      "hidden": true,
+      "parent": "nature"
+    },
+    "religion": {
+      "expression": "intelligence + (religion-proficiency ? proficiency : jack-of-all-trades ? (floor (proficiency / 2)) : 0) + (religion-expertise ? proficiency : 0)",
+      "value": 0,
+      "subtitle": "int",
+      "type": "skill",
+      "section": "skills",
+      "roll": "Religion check: {1d20 + religion}"
+    },
+    "religion-proficiency": {
+      "value": false,
+      "type": "checkbox",
+      "hidden": true,
+      "parent": "religion"
+    },
+    "religion-expertise": {
+      "value": false,
+      "type": "checkbox",
+      "hidden": true,
+      "parent": "religion"
+    },
+    "animal-handling": {
+      "expression": "wisdom + (animal-handling-proficiency ? proficiency : jack-of-all-trades ? (floor (proficiency / 2)) : 0) + (animal-handling-expertise ? proficiency : 0)",
+      "value": 3,
+      "subtitle": "wis",
+      "type": "skill",
+      "section": "skills",
+      "roll": "Animal handling check: {1d20 + animal-handling}"
+    },
+    "animal-handling-proficiency": {
+      "value": true,
+      "type": "checkbox",
+      "hidden": true,
+      "parent": "animal-handling"
+    },
+    "animal-handling-expertise": {
+      "value": false,
+      "type": "checkbox",
+      "hidden": true,
+      "parent": "animal-handling"
+    },
+    "insight": {
+      "expression": "wisdom + (insight-proficiency ? proficiency : jack-of-all-trades ? (floor (proficiency / 2)) : 0) + (insight-expertise ? proficiency : 0)",
+      "value": 1,
+      "subtitle": "wis",
+      "type": "skill",
+      "section": "skills",
+      "roll": "Insight check: {1d20 + insight}"
+    },
+    "insight-proficiency": {
+      "value": false,
+      "type": "checkbox",
+      "hidden": true,
+      "parent": "insight"
+    },
+    "insight-expertise": {
+      "value": false,
+      "type": "checkbox",
+      "hidden": true,
+      "parent": "insight"
+    },
+    "medicine": {
+      "expression": "wisdom + (medicine-proficiency ? proficiency : jack-of-all-trades ? (floor (proficiency / 2)) : 0) + (medicine-expertise ? proficiency : 0)",
+      "value": 1,
+      "subtitle": "wis",
+      "type": "skill",
+      "section": "skills",
+      "roll": "Medicine check: {1d20 + medicine}"
+    },
+    "medicine-proficiency": {
+      "value": false,
+      "type": "checkbox",
+      "hidden": true,
+      "parent": "medicine"
+    },
+    "medicine-expertise": {
+      "value": false,
+      "type": "checkbox",
+      "hidden": true,
+      "parent": "medicine"
+    },
+    "perception": {
+      "expression": "wisdom + (perception-proficiency ? proficiency : jack-of-all-trades ? (floor (proficiency / 2)) : 0) + (perception-expertise ? proficiency : 0)",
+      "value": 1,
+      "subtitle": "wis",
+      "type": "skill",
+      "section": "skills",
+      "roll": "Perception check: {1d20 + perception}"
+    },
+    "perception-proficiency": {
+      "value": false,
+      "type": "checkbox",
+      "hidden": true,
+      "parent": "perception"
+    },
+    "perception-expertise": {
+      "value": false,
+      "type": "checkbox",
+      "hidden": true,
+      "parent": "perception"
+    },
+    "survival": {
+      "expression": "wisdom + (survival-proficiency ? proficiency : jack-of-all-trades ? (floor (proficiency / 2)) : 0) + (survival-expertise ? proficiency : 0)",
+      "value": 1,
+      "subtitle": "wis",
+      "type": "skill",
+      "section": "skills",
+      "roll": "Survival check: {1d20 + survival}"
+    },
+    "survival-proficiency": {
+      "value": false,
+      "type": "checkbox",
+      "hidden": true,
+      "parent": "survival"
+    },
+    "survival-expertise": {
+      "value": false,
+      "type": "checkbox",
+      "hidden": true,
+      "parent": "survival"
+    },
+    "deception": {
+      "expression": "charisma + (deception-proficiency ? proficiency : jack-of-all-trades ? (floor (proficiency / 2)) : 0) + (deception-expertise ? proficiency : 0)",
+      "value": -2,
+      "subtitle": "cha",
+      "type": "skill",
+      "section": "skills",
+      "roll": "Deception check: {1d20 + deception}"
+    },
+    "deception-proficiency": {
+      "value": false,
+      "type": "checkbox",
+      "hidden": true,
+      "parent": "deception"
+    },
+    "deception-expertise": {
+      "value": false,
+      "type": "checkbox",
+      "hidden": true,
+      "parent": "deception"
+    },
+    "intimidation": {
+      "expression": "charisma + (intimidation-proficiency ? proficiency : jack-of-all-trades ? (floor (proficiency / 2)) : 0) + (intimidation-expertise ? proficiency : 0)",
+      "value": -2,
+      "subtitle": "cha",
+      "type": "skill",
+      "section": "skills",
+      "roll": "Intimidation check: {1d20 + intimidation}"
+    },
+    "intimidation-proficiency": {
+      "value": false,
+      "type": "checkbox",
+      "hidden": true,
+      "parent": "intimidation"
+    },
+    "intimidation-expertise": {
+      "value": false,
+      "type": "checkbox",
+      "hidden": true,
+      "parent": "intimidation"
+    },
+    "performance": {
+      "expression": "charisma + (performance-proficiency ? proficiency : jack-of-all-trades ? (floor (proficiency / 2)) : 0) + (performance-expertise ? proficiency : 0)",
+      "value": -2,
+      "subtitle": "cha",
+      "type": "skill",
+      "section": "skills",
+      "roll": "Performance check: {1d20 + performance}"
+    },
+    "performance-proficiency": {
+      "value": false,
+      "type": "checkbox",
+      "hidden": true,
+      "parent": "performance"
+    },
+    "performance-expertise": {
+      "value": false,
+      "type": "checkbox",
+      "hidden": true,
+      "parent": "performance"
+    },
+    "persuasion": {
+      "expression": "charisma + (persuasion-proficiency ? proficiency : jack-of-all-trades ? (floor (proficiency / 2)) : 0) + (persuasion-expertise ? proficiency : 0)",
+      "value": -2,
+      "subtitle": "cha",
+      "type": "skill",
+      "section": "skills",
+      "roll": "Persuasion check: {1d20 + persuasion}"
+    },
+    "persuasion-proficiency": {
+      "value": false,
+      "type": "checkbox",
+      "hidden": true,
+      "parent": "persuasion"
+    },
+    "persuasion-expertise": {
+      "value": false,
+      "type": "checkbox",
+      "hidden": true,
+      "parent": "persuasion"
+    },
+    "jack-of-all-trades": {
+      "value": false,
+      "type": "checkbox",
+      "section": "skills"
+    },
+    "dark-vision": {
+      "value": 0,
+      "type": "number",
+      "section": "senses"
+    },
+    "passive-perception": {
+      "value": 11,
+      "type": "number",
+      "section": "senses",
+      "expression": "10 + perception"
+    },
+    "passive-stealth": {
+      "value": 11,
+      "type": "number",
+      "section": "senses",
+      "expression": "10 + stealth"
+    },
+    "char-player-names": {
+      "value": "Character Name (Player)",
+      "type": "text",
+      "section": "overview"
+    },
+    "Alignment": {
+      "value": "Chaotic Good",
+      "type": "text",
+      "section": "overview"
+    },
+    "race": {
+      "value": "Human",
+      "section": "overview",
+      "type": "text"
+    },
+    "gender": {
+      "value": "male",
+      "section": "overview",
+      "type": "text"
+    },
+    "class": {
+      "value": "Fighter",
+      "section": "overview",
+      "type": "text"
+    },
+    "Class-Specialization": {
+      "value": "Fighting Style: Protection",
+      "type": "text",
+      "section": "overview"
+    },
+    "background": {
+      "value": "smith/soldier",
+      "type": "text",
+      "section": "overview"
+    },
+    "level": {
+      "value": 3,
+      "section": "overview",
+      "type": "number"
+    },
+    "experience": {
+      "value": 200,
+      "section": "overview",
+      "type": "number"
+    },
+    "xp-goal-next-level": {
+      "value": 300,
+      "type": "number",
+      "section": "overview"
+    },
+    "languages": {
+      "value": "Common, dwarven",
+      "type": "text",
+      "section": "overview"
+    },
+    "character-appearance": {
+      "value": "<p>Age: &nbsp; &nbsp; &nbsp; &nbsp; Size: M &nbsp; &nbsp; &nbsp; &nbsp; Height: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Weight: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Eyes: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Skin: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Hair:</p>",
+      "type": "text-area",
+      "section": "overview"
+    },
+    "strength": {
+      "expression": "floor ((strength-score - 10) / 2)",
+      "type": "ability",
+      "value": 4,
+      "section": "abilities",
+      "roll": "strength check: {1d20 + strength}"
+    },
+    "strength-score": {
+      "parent": "strength",
+      "value": 18,
+      "type": "number",
+      "hidden": true
+    },
+    "dexterity": {
+      "expression": "floor ((dexterity-score - 10) / 2)",
+      "type": "ability",
+      "value": 1,
+      "section": "abilities",
+      "roll": "dexterity check: {1d20 + dexterity}"
+    },
+    "dexterity-score": {
+      "parent": "dexterity",
+      "value": 13,
+      "type": "number",
+      "hidden": true
+    },
+    "constitution": {
+      "expression": "floor ((constitution-score - 10) / 2)",
+      "type": "ability",
+      "value": 2,
+      "section": "abilities",
+      "roll": "constitution check: {1d20 + constitution}"
+    },
+    "constitution-score": {
+      "parent": "constitution",
+      "value": 15,
+      "type": "number",
+      "hidden": true
+    },
+    "intelligence": {
+      "expression": "floor ((intelligence-score - 10) / 2)",
+      "type": "ability",
+      "value": 0,
+      "section": "abilities",
+      "roll": "intelligence check: {1d20 + intelligence}"
+    },
+    "intelligence-score": {
+      "parent": "intelligence",
+      "value": 11,
+      "type": "number",
+      "hidden": true
+    },
+    "wisdom": {
+      "expression": "floor ((wisdom-score - 10) / 2)",
+      "type": "ability",
+      "value": 1,
+      "section": "abilities",
+      "roll": "wisdom check: {1d20 + wisdom}"
+    },
+    "wisdom-score": {
+      "parent": "wisdom",
+      "value": 13,
+      "type": "number",
+      "hidden": true
+    },
+    "charisma": {
+      "expression": "floor ((charisma-score - 10) / 2)",
+      "type": "ability",
+      "value": -2,
+      "section": "abilities",
+      "roll": "charisma check: {1d20 + charisma}"
+    },
+    "charisma-score": {
+      "parent": "charisma",
+      "value": 7,
+      "type": "number",
+      "hidden": true
+    },
+    "hit-die-size": {
+      "value": 10,
+      "type": "number",
+      "section": "info"
+    },
+    "crit-on-natural": {
+      "value": 20,
+      "type": "number",
+      "section": "info"
+    },
+    "armor-type": {
+      "value": "chain mail",
+      "type": "text",
+      "section": "info"
+    },
+    "AC-base-armor": {
+      "value": 16,
+      "type": "number",
+      "section": "info"
+    },
+    "armor-dex-max": {
+      "value": 0,
+      "type": "number",
+      "section": "info"
+    },
+    "ac-shield-bonus": {
+      "value": 2,
+      "type": "number",
+      "section": "info"
+    },
+    "armor-class": {
+      "value": 18,
+      "section": "info",
+      "type": "number",
+      "expression": "ac-base-armor + ac-shield-bonus + min(dex, armor-dex-max)"
+    },
+    "proficiency": {
+      "value": 2,
+      "expression": "level <= 4 ? 2 : level <= 8 ? 3 : level <= 12 ? 4 : level <= 16 ? 5 : 6",
+      "section": "info",
+      "type": "number"
+    },
+    "proficiencies-other": {
+      "value": "<p>Weapons:</p><p>Armor:</p><p>Tools:</p>",
+      "type": "text-area",
+      "section": "info"
+    },
+    "Wealth": {
+      "value": "<p>Copper: 0 &nbsp; Silver (10 CP): 0 &nbsp; Electrum (5 silver): 0 &nbsp; Gold (10 silver): 0 Platinum (10 Gold): 0</p><p>Gems:&nbsp;</p><p>Jewelry (non-magical or unknown):</p>",
+      "type": "text-area",
+      "section": "details"
+    },
+    "Equipment": {
+      "value": "<p>chain mail, shield, light crossbow, 20 bolts, warhammer, bedroll, mess kit, tinder box, dice, 10 torches, 1 set clothes, 10 rations, 50' hemp rope, waterskin, 1 soldier insignia</p>",
+      "type": "text-area",
+      "section": "details"
+    },
+    "attack-roll": {
+      "value": 14,
+      "type": "number",
+      "section": "char-sheet-internal"
+    },
+    "other-roll": {
+      "value": "",
+      "type": "number",
+      "section": "char-sheet-internal",
+      "__comment": "Used for various rolls, generally hit points but could be others. See also attack-roll",
+      "local": true,
+      "hidden": true,
+      "__update": "V1.02 adds this block",
+      "roll": ""
+    },
+    "csi-attack-suffix": {
+      "value": "",
+      "type": "text",
+      "section": "char-sheet-internal",
+      "expression": "( attack-with-advantage ? ( attack-with-disadvantage ? \"\" : \"a\" ) : (attack-with-disadvantage ? \"d\" : \"\" ) )"
+    },
+    "csi-crit-message": {
+      "value": "",
+      "type": "text",
+      "section": "char-sheet-internal",
+      "expression": "( attack-roll < crit-on-natural ? \"\" : \" (Critical hit!)\" )"
+    },
+    "csi-crit-bonus-dice": {
+      "value": 0,
+      "type": "number",
+      "section": "char-sheet-internal",
+      "expression": "( attack-roll >= crit-on-natural ? 1 : 0 )"
+    },
+    "spell-primary-stat": {
+      "value": "wisdom",
+      "type": "text",
+      "section": "spells"
+    },
+    "spell-attack-bonus": {
+      "value": 3,
+      "type": "number",
+      "section": "spells",
+      "expression": "proficiency + @:spell-primary-stat:",
+      "roll": "Spell attack: Raw { attack-roll = 1d20@:csi-attack-suffix: } {csi-crit-message = ( attack-roll < crit-on-natural ? \" (norm) \" : \" (crit?) \")} {csi-crit-bonus-dice = (attack-roll < crit-on-natural ? +0 : +1)} To Hit {attack-roll + spell-attack-bonus } save DC {spell-save-dc}"
+    },
+    "spell-save-dc": {
+      "value": 11,
+      "type": "number",
+      "section": "spells",
+      "expression": "8 + proficiency + @:spell-primary-stat:"
+    },
+    "prepared-spells-max": {
+      "value": 2,
+      "type": "number",
+      "section": "spells"
+    },
+    "Prepared-spells": {
+      "value": "<p>Cantrips known:</p><p>Prepared:</p><p>Bonus prepared:</p>",
+      "type": "text-area",
+      "section": "spells"
+    },
+    "Spell-slots-level-one": {
+      "value": 3,
+      "type": "number",
+      "section": "spells"
+    },
+    "spell-slots-used-one": {
+      "value": 0,
+      "type": "checkboxes",
+      "section": "spells"
+    },
+    "spell-slots-used-one-max": {
+      "value": 3,
+      "type": "number",
+      "hidden": true,
+      "parent": "spell-slots-used-one",
+      "expression": "spell-slots-level-one"
+    },
+    "Spell-slots-level-two": {
+      "value": 2,
+      "type": "number",
+      "section": "spells"
+    },
+    "Spell-slots-used-two": {
+      "value": "",
+      "type": "checkboxes",
+      "section": "spells"
+    },
+    "Spell-slots-used-two-max": {
+      "value": 2,
+      "type": "number",
+      "hidden": true,
+      "parent": "Spell-slots-used-two",
+      "expression": "Spell-slots-level-two"
+    },
+    "Spell-slots-level-three": {
+      "value": 1,
+      "type": "number",
+      "section": "spells"
+    },
+    "Spell-slots-used-three": {
+      "value": "",
+      "type": "checkboxes",
+      "section": "spells"
+    },
+    "Spell-slots-used-three-max": {
+      "value": 1,
+      "type": "number",
+      "hidden": true,
+      "parent": "Spell-slots-used-three",
+      "expression": "Spell-slots-level-three"
+    }
+  },
+  "info": {
+    "description": "<p><strong>Personality traits:</strong> Put text here </p><p>&nbsp;</p>",
+    "notes": "<p><strong>Ideals:</strong> Put ideals here.</p><p><strong>Bonds:</strong> put bonds here</p><p><strong>Flaws:</strong> put flaws here</p><p><strong>Backstory:</strong> put backstory here</p><p><strong>Recent activity</strong>: put recent activity here</p>",
+    "sections": [
+      {
+        "name": "combat",
+        "position": "left",
+        "tab": 1,
+        "savedMessages": false
+      },
+      {
+        "name": "at-will",
+        "position": "left",
+        "tab": 1,
+        "savedMessages": false
+      },
+      {
+        "name": "short-rest",
+        "position": "left",
+        "tab": 1,
+        "savedMessages": false
+      },
+      {
+        "name": "once-per-day",
+        "position": "left",
+        "tab": 1,
+        "savedMessages": false
+      },
+      {
+        "name": "combat-messages",
+        "position": "bottom",
+        "tab": 1,
+        "savedMessages": true
+      },
+      {
+        "name": "About-Character-Sheet",
+        "position": "bottom",
+        "tab": 1,
+        "savedMessages": false
+      },
+      {
+        "name": "Feats",
+        "position": "bottom",
+        "tab": 2,
+        "savedMessages": false
+      },
+      {
+        "name": "saving-throws",
+        "position": "right",
+        "tab": 2
+      },
+      {
+        "name": "senses",
+        "position": "right",
+        "tab": 2
+      },
+      {
+        "name": "skills",
+        "position": "right",
+        "tab": 2
+      },
+      {
+        "name": "overview",
+        "position": "left",
+        "tab": 3,
+        "savedMessages": false
+      },
+      {
+        "name": "abilities",
+        "position": "bottom",
+        "tab": 3
+      },
+      {
+        "name": "info",
+        "position": "left",
+        "tab": 3
+      },
+      {
+        "name": "details",
+        "position": "left",
+        "tab": 3
+      },
+      {
+        "name": "char-sheet-internal",
+        "position": "bottom",
+        "tab": 3,
+        "hidden": true,
+        "__comment": "Marking a section hidden currently has no effect, but leave it in in case the next rev implements it.",
+        "savedMessages": false
+      },
+      {
+        "name": "actions",
+        "position": "bottom",
+        "tab": 4,
+        "savedMessages": true
+      },
+      {
+        "name": "spells",
+        "position": "bottom",
+        "tab": 4,
+        "savedMessages": true
+      }
+    ]
+  },
+  "appearances": [],
+  "savedMessages": [
+    {
+      "name": "SP01-General-spell",
+      "message": "Spell attack: Raw { attack-roll = 1d20@:csi-attack-suffix: } {csi-crit-message = ( attack-roll < crit-on-natural ? \" (norm) \" : \" (crit?) \")} {csi-crit-bonus-dice = (attack-roll < crit-on-natural ? +0 : +1)} To Hit {attack-roll + spell-attack-bonus } save DC {spell-save-dc}",
+      "section": "spells"
+    },
+    {
+      "name": "AT01-Warhammer",
+      "message": "Warhammer (1 handed): Raw { attack-roll = 1d20@:csi-attack-suffix: } {csi-crit-message = ( attack-roll < crit-on-natural ? \" (norm) \" : \" (crit?) \")} {csi-crit-bonus-dice = (attack-roll < crit-on-natural ? +0 : +1)}\nTo Hit {attack-roll + prof + str } damage  {@:csi-crit-bonus-dice + 1:d8 + str}  bludgeoning",
+      "section": "actions"
+    },
+    {
+      "name": "AT02-Warhammer-2H",
+      "message": "Warhammer (2 handed): Raw { attack-roll = 1d20@:csi-attack-suffix: } {csi-crit-message = ( attack-roll < crit-on-natural ? \" (norm) \" : \" (crit?) \")} {csi-crit-bonus-dice = (attack-roll < crit-on-natural ? +0 : +1)}\nTo Hit {attack-roll + prof + str } damage  {@:csi-crit-bonus-dice + 1:d10 + str}  bludgeoning",
+      "section": "actions"
+    },
+    {
+      "name": "AT03-crossbow-light",
+      "message": "light crossbow (loading, 2 handed, range 80/320): Raw { attack-roll = 1d20@:csi-attack-suffix: } {csi-crit-message = ( attack-roll < crit-on-natural ? \" (norm) \" : \" (crit?) \")} {csi-crit-bonus-dice = (attack-roll < crit-on-natural ? +0 : +1)}\nTo Hit {attack-roll + prof + dex }  \ndamage  {@:csi-crit-bonus-dice + 1:d8} piercing",
+      "section": "actions"
+    },
+    {
+      "name": "AT04-rapier",
+      "message": "Rapier: Raw { attack-roll = 1d20@:csi-attack-suffix: } {csi-crit-message = ( attack-roll < crit-on-natural ? \" (norm) \" : \" (crit?) \")} {csi-crit-bonus-dice = (attack-roll < crit-on-natural ? +0 : +1)}\nTo Hit {attack-roll + prof + @:max(str,dex):} damage {@:csi-crit-bonus-dice + 1:d8 + @:max(str,dex):} piercing",
+      "section": "actions"
+    }
+  ]
+}

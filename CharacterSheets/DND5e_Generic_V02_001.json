@@ -1,0 +1,2982 @@
+{
+  "properties": [
+    {
+      "id": 602995,
+      "parentId": 602988,
+      "type": "number",
+      "data": {},
+      "name": "armor-dex-max",
+      "value": 2,
+      "rank": 3,
+      "characterId": 213341
+    },
+    {
+      "id": 602996,
+      "parentId": 602988,
+      "type": "number",
+      "data": {},
+      "name": "ac-shield-bonus",
+      "value": 2,
+      "rank": 4,
+      "characterId": 213341
+    },
+    {
+      "id": 602960,
+      "parentId": null,
+      "type": "tab-section",
+      "data": {},
+      "value": "Character",
+      "rank": -4,
+      "characterId": 213341
+    },
+    {
+      "id": 602961,
+      "parentId": 602960,
+      "type": "paragraph",
+      "data": {},
+      "name": "character-appearance",
+      "value": "<p>Age: &nbsp; &nbsp; &nbsp; &nbsp; Size: M &nbsp; &nbsp; &nbsp; &nbsp; Height: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Weight: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Eyes: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Skin: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Hair:</p>",
+      "rank": -4,
+      "characterId": 213341
+    },
+    {
+      "id": 602962,
+      "parentId": 602960,
+      "type": "title-section",
+      "data": {},
+      "value": "Description (public)",
+      "rank": -5,
+      "characterId": 213341
+    },
+    {
+      "id": 602963,
+      "parentId": 602962,
+      "type": "paragraph",
+      "data": {},
+      "value": "<p>A high elf with shoulder length honey colored hair, pale skin, and green eyes. He is dressed in a light grey flowing cloak of fine material over a mail shirt. Supple leather boots show the wear of far travel but the durability of fine craftsmanship.</p><p>&nbsp;</p>",
+      "rank": -2,
+      "characterId": 213341
+    },
+    {
+      "id": 602964,
+      "parentId": 602960,
+      "type": "appearance",
+      "data": {
+        "appearances": []
+      },
+      "value": "",
+      "rank": 2,
+      "characterId": 213341
+    },
+    {
+      "id": 602965,
+      "parentId": 602960,
+      "type": "title-section",
+      "data": {},
+      "value": "About Character Sheet",
+      "rank": -6,
+      "characterId": 213341
+    },
+    {
+      "id": 602966,
+      "parentId": 602965,
+      "type": "paragraph",
+      "data": {},
+      "name": "char-sheet-notes",
+      "value": "<p>D&amp;D5e Character Sheet by Corym. You can delete this text (or replace it with your own notes) once you are familiar with the layout. This layout is optimized for play not creation, start with a printed sheet!</p><p>Character: This tab, focused on things that describe the character and things you change/refer to only rarely</p><p>Combat: Optimized for quick reference in the heat of battle!</p><p>Stats/Saves/Skills: Go here if you need to make a saving throw, a skill check, or an ability check, or to apply a temporary modifier to an ability</p><p>Spells: Spells and special attacks, some of which may be copied onto the Combat tab for quick access</p><p>Internal: Nothing here to see, these are controls used internally by the character sheet, don't change anything on this tab!</p>",
+      "rank": 38,
+      "characterId": 213341
+    },
+    {
+      "id": 602967,
+      "parentId": 602960,
+      "type": "title-section",
+      "data": {},
+      "value": "Feats",
+      "rank": -2,
+      "characterId": 213341
+    },
+    {
+      "id": 602968,
+      "parentId": 602967,
+      "type": "paragraph",
+      "data": {},
+      "name": "Class-Benefits",
+      "value": "<p>Fighting style (Choose 1: Protection - reaction to impose &nbsp;disadvantage on 1 attack against adjacent ally), Second Wind (1 per short rest, bonus action to recover 1d10 + level HP)</p>",
+      "rank": 0,
+      "characterId": 213341
+    },
+    {
+      "id": 602969,
+      "parentId": 602960,
+      "type": "horizontal-section",
+      "data": {},
+      "value": "",
+      "rank": -2,
+      "characterId": 213341
+    },
+    {
+      "id": 602970,
+      "parentId": 602969,
+      "type": "section",
+      "data": {},
+      "value": "",
+      "rank": 0,
+      "size": 50,
+      "characterId": 213341
+    },
+    {
+      "id": 602971,
+      "parentId": 602970,
+      "type": "paragraph",
+      "data": {},
+      "name": "proficiencies-other",
+      "value": "<p>Weapons:</p><p>Armor:</p><p>Tools:</p>",
+      "rank": -2,
+      "characterId": 213341
+    },
+    {
+      "id": 602972,
+      "parentId": 602970,
+      "type": "paragraph",
+      "data": {},
+      "name": "Wealth",
+      "value": "<p>Copper: 0 &nbsp; Silver (10 CP): 10 &nbsp; Electrum (5 silver): 0 &nbsp; Gold (10 silver): 14 Platinum (10 Gold): 0</p><p>Gems:&nbsp;</p><p>Jewelry (non-magical or unknown):</p>",
+      "rank": -4,
+      "characterId": 213341
+    },
+    {
+      "id": 602973,
+      "parentId": 602970,
+      "type": "paragraph",
+      "data": {},
+      "name": "Equipment",
+      "value": "<p>chain mail, shield, light crossbow, 20 bolts, warhammer, bedroll, mess kit, tinder box, dice, 10 torches, 1 set clothes, 10 rations, 50' hemp rope, waterskin, 1 soldier insignia</p>",
+      "rank": -3,
+      "characterId": 213341
+    },
+    {
+      "id": 602974,
+      "parentId": 602969,
+      "type": "section",
+      "data": {},
+      "value": "",
+      "rank": 1,
+      "size": 50,
+      "characterId": 213341
+    },
+    {
+      "id": 602975,
+      "parentId": 602974,
+      "type": "title-section",
+      "data": {},
+      "private": true,
+      "value": "Notes (private)",
+      "rank": 1,
+      "characterId": 213341
+    },
+    {
+      "id": 602976,
+      "parentId": 602975,
+      "type": "paragraph",
+      "data": {},
+      "value": "<p><strong>Ideals:</strong> Efficiency. Can't stand the army, they take too long to decide anything.</p><p><strong>Bonds:</strong> The healers who saved what's left of my face&nbsp;<br>All animals</p><p><strong>Flaws:</strong> Enraged at abuse . Tends to act hastily. Git 'em!</p><p><strong>Backstory:</strong> Blacksmith for a mercenary group. Kicked by a mule, left behind at the healer's, sees no need to go back to them. Looking for a good dwarven smith who would train him.&nbsp;</p><p><strong>Recent activity</strong>: Working for Gnomish alchemist in South Malton&nbsp;</p>",
+      "rank": -2,
+      "characterId": 213341
+    },
+    {
+      "id": 602977,
+      "parentId": 602960,
+      "type": "horizontal-section",
+      "data": {},
+      "value": "",
+      "rank": -3,
+      "characterId": 213341
+    },
+    {
+      "id": 602978,
+      "parentId": 602977,
+      "type": "section",
+      "data": {},
+      "value": "",
+      "rank": 0,
+      "size": 59.0833333333333,
+      "characterId": 213341
+    },
+    {
+      "id": 602979,
+      "parentId": 602978,
+      "type": "text",
+      "data": {},
+      "name": "languages",
+      "value": "Common, Elven",
+      "rank": 6,
+      "characterId": 213341
+    },
+    {
+      "id": 602980,
+      "parentId": 602978,
+      "type": "text",
+      "data": {},
+      "name": "char-player-names",
+      "value": "Character Name (Player)",
+      "rank": -1,
+      "characterId": 213341
+    },
+    {
+      "id": 602981,
+      "parentId": 602978,
+      "type": "text",
+      "data": {},
+      "name": "Alignment",
+      "value": "Chaotic Good",
+      "rank": 2,
+      "characterId": 213341
+    },
+    {
+      "id": 602982,
+      "parentId": 602978,
+      "type": "text",
+      "data": {},
+      "name": "race",
+      "value": "High Elf",
+      "rank": 0,
+      "characterId": 213341
+    },
+    {
+      "id": 602983,
+      "parentId": 602978,
+      "type": "text",
+      "data": {},
+      "name": "gender",
+      "value": "male",
+      "rank": 1,
+      "characterId": 213341
+    },
+    {
+      "id": 602984,
+      "parentId": 602978,
+      "type": "text",
+      "data": {},
+      "name": "class",
+      "value": "Fighter",
+      "rank": 3,
+      "characterId": 213341
+    },
+    {
+      "id": 602985,
+      "parentId": 602978,
+      "type": "text",
+      "data": {},
+      "name": "Class-Specialization",
+      "value": "Fighting Style: Protection",
+      "rank": 4,
+      "characterId": 213341
+    },
+    {
+      "id": 602986,
+      "parentId": 602978,
+      "type": "text",
+      "data": {},
+      "name": "background",
+      "value": "smith/soldier",
+      "rank": 5,
+      "characterId": 213341
+    },
+    {
+      "id": 602987,
+      "parentId": 602978,
+      "type": "text",
+      "data": {},
+      "name": "armor-type",
+      "value": "chain mail",
+      "rank": 7,
+      "characterId": 213341
+    },
+    {
+      "id": 602988,
+      "parentId": 602977,
+      "type": "section",
+      "data": {},
+      "value": "",
+      "rank": 1,
+      "size": 40.91666666666668,
+      "characterId": 213341
+    },
+    {
+      "id": 602989,
+      "parentId": 602988,
+      "type": "number",
+      "data": {},
+      "name": "level",
+      "value": 3,
+      "rank": -4,
+      "characterId": 213341
+    },
+    {
+      "id": 602990,
+      "parentId": 602988,
+      "type": "number",
+      "data": {},
+      "name": "experience",
+      "value": 200,
+      "rank": -2,
+      "characterId": 213341
+    },
+    {
+      "id": 602991,
+      "parentId": 602988,
+      "type": "number",
+      "data": {},
+      "name": "xp-goal-next-level",
+      "value": 300,
+      "rank": -1,
+      "characterId": 213341
+    },
+    {
+      "id": 602992,
+      "parentId": 602988,
+      "type": "number",
+      "data": {},
+      "name": "hit-die-size",
+      "value": 10,
+      "rank": 6,
+      "characterId": 213341
+    },
+    {
+      "id": 602993,
+      "parentId": 602988,
+      "type": "number",
+      "data": {},
+      "name": "crit-on-natural",
+      "value": 18,
+      "rank": 7,
+      "characterId": 213341
+    },
+    {
+      "id": 602994,
+      "parentId": 602988,
+      "type": "number",
+      "data": {},
+      "name": "AC-base-armor",
+      "value": 16,
+      "rank": 2,
+      "characterId": 213341
+    },
+    {
+      "id": 602997,
+      "parentId": 602988,
+      "type": "number",
+      "data": {},
+      "name": "armor-class",
+      "value": 20,
+      "rank": 5,
+      "formula": "ac-base-armor + ac-shield-bonus + min(dex, armor-dex-max)",
+      "characterId": 213341
+    },
+    {
+      "id": 602998,
+      "parentId": 602988,
+      "type": "number",
+      "data": {},
+      "name": "proficiency",
+      "value": 2,
+      "rank": -3,
+      "formula": "level <= 4 ? 2 : level <= 8 ? 3 : level <= 12 ? 4 : level <= 16 ? 5 : 6",
+      "characterId": 213341
+    },
+    {
+      "id": 602999,
+      "parentId": null,
+      "type": "tab-section",
+      "data": {},
+      "value": "Spells",
+      "rank": 2,
+      "characterId": 213341
+    },
+    {
+      "id": 603000,
+      "parentId": 602999,
+      "type": "title-section",
+      "data": {},
+      "value": "Actions",
+      "rank": 4,
+      "characterId": 213341
+    },
+    {
+      "id": 603001,
+      "parentId": 603000,
+      "type": "filter-list",
+      "data": {},
+      "value": "",
+      "rank": -2,
+      "characterId": 213341
+    },
+    {
+      "id": 603002,
+      "parentId": 603001,
+      "type": "message",
+      "data": {},
+      "name": "AT02-Warhammer-2H",
+      "icon": "/images/message.png",
+      "value": "",
+      "rank": 2,
+      "message": "Warhammer (2 handed): Raw { attack-roll = 1d20@:csi-attack-suffix: } {csi-crit-message = ( attack-roll < crit-on-natural ? \" (norm) \" : \" (crit?) \")} {csi-crit-bonus-dice = (attack-roll < crit-on-natural ? +0 : +1)}\nTo Hit {attack-roll + proficiency+ strength } damage  {@:csi-crit-bonus-dice + 1:d10 + strength}  bludgeoning",
+      "characterId": 213341
+    },
+    {
+      "id": 603003,
+      "parentId": 603001,
+      "type": "message",
+      "data": {},
+      "name": "AT03-crossbow-light",
+      "icon": "/images/message.png",
+      "value": "",
+      "rank": 3,
+      "message": "light crossbow (loading, 2 handed, range 80/320): Raw { attack-roll = 1d20@:csi-attack-suffix: } {csi-crit-message = ( attack-roll < crit-on-natural ? \" (norm) \" : \" (crit?) \")} {csi-crit-bonus-dice = (attack-roll < crit-on-natural ? +0 : +1)}\nTo Hit {attack-roll + proficiency + dexterity }  \ndamage  {@:csi-crit-bonus-dice + 1:d8 + dexterity} piercing",
+      "characterId": 213341
+    },
+    {
+      "id": 603004,
+      "parentId": 603001,
+      "type": "message",
+      "data": {},
+      "name": "AT04-rapier",
+      "icon": "/images/message.png",
+      "value": "",
+      "rank": 4,
+      "message": "Rapier: Raw { attack-roll = 1d20@:csi-attack-suffix: } {csi-crit-message = ( attack-roll < crit-on-natural ? \" (norm) \" : \" (crit?) \")} {csi-crit-bonus-dice = (attack-roll < crit-on-natural ? +0 : +1)}\nTo Hit {attack-roll + proficiency + @:max(strength, dexterity):} damage {@:csi-crit-bonus-dice + 1:d8 + @:max(strength, dexterity):} piercing",
+      "characterId": 213341
+    },
+    {
+      "id": 603005,
+      "parentId": 603001,
+      "type": "message",
+      "data": {},
+      "name": "AT01-Warhammer",
+      "icon": "/images/message.png",
+      "value": "",
+      "rank": -1,
+      "message": "Warhammer (1 handed): Raw { attack-roll = 1d20@:csi-attack-suffix: } {csi-crit-message = ( attack-roll < crit-on-natural ? \" (norm) \" : \" (crit?) \")} {csi-crit-bonus-dice = (attack-roll < crit-on-natural ? +0 : +1)}\nTo Hit {attack-roll + proficiency + strength } damage  {@:csi-crit-bonus-dice + 1:d8 + strength}  bludgeoning",
+      "characterId": 213341
+    },
+    {
+      "id": 603006,
+      "parentId": 602999,
+      "type": "title-section",
+      "data": {},
+      "value": "Spells",
+      "rank": 6,
+      "characterId": 213341
+    },
+    {
+      "id": 603007,
+      "parentId": 603006,
+      "type": "filter-list",
+      "data": {},
+      "value": "",
+      "rank": 164,
+      "characterId": 213341
+    },
+    {
+      "id": 603008,
+      "parentId": 603007,
+      "type": "message",
+      "data": {},
+      "name": "SP01-General-spell",
+      "icon": "/images/message.png",
+      "value": "",
+      "rank": -2,
+      "message": "Spell attack: Raw { attack-roll = 1d20@:csi-attack-suffix: } {csi-crit-message = ( attack-roll < crit-on-natural ? \" (norm) \" : \" (crit?) \")} {csi-crit-bonus-dice = (attack-roll < crit-on-natural ? +0 : +1)} To Hit {attack-roll + spell-attack-bonus } save DC {spell-save-dc}",
+      "characterId": 213341
+    },
+    {
+      "id": 603009,
+      "parentId": 603006,
+      "type": "paragraph",
+      "data": {},
+      "name": "Prepared-spells",
+      "value": "<p>Cantrips known:</p><p>Prepared:</p><p>Bonus prepared:</p>",
+      "rank": 149,
+      "characterId": 213341
+    },
+    {
+      "id": 603010,
+      "parentId": 603006,
+      "type": "horizontal-section",
+      "data": {},
+      "value": "",
+      "rank": 150,
+      "characterId": 213341
+    },
+    {
+      "id": 603011,
+      "parentId": 603010,
+      "type": "section",
+      "data": {},
+      "value": "",
+      "rank": 0,
+      "size": 50,
+      "characterId": 213341
+    },
+    {
+      "id": 603012,
+      "parentId": 603011,
+      "type": "text",
+      "data": {},
+      "name": "spell-primary-stat",
+      "value": "wisdom",
+      "rank": 0,
+      "characterId": 213341
+    },
+    {
+      "id": 603013,
+      "parentId": 603011,
+      "type": "number",
+      "data": {},
+      "name": "prepared-spells-max",
+      "value": 2,
+      "rank": 1,
+      "characterId": 213341
+    },
+    {
+      "id": 603014,
+      "parentId": 603011,
+      "type": "number",
+      "data": {},
+      "name": "Spell-slots-level-one",
+      "value": 3,
+      "rank": 2,
+      "characterId": 213341
+    },
+    {
+      "id": 603015,
+      "parentId": 603011,
+      "type": "number",
+      "data": {},
+      "name": "Spell-slots-level-two",
+      "value": 2,
+      "rank": 3,
+      "characterId": 213341
+    },
+    {
+      "id": 603016,
+      "parentId": 603011,
+      "type": "number",
+      "data": {},
+      "name": "Spell-slots-level-three",
+      "value": 1,
+      "rank": 4,
+      "characterId": 213341
+    },
+    {
+      "id": 603017,
+      "parentId": 603010,
+      "type": "section",
+      "data": {},
+      "value": "",
+      "rank": 1,
+      "size": 50,
+      "characterId": 213341
+    },
+    {
+      "id": 603019,
+      "parentId": 603017,
+      "type": "number",
+      "data": {},
+      "name": "spell-save-dc",
+      "value": 13,
+      "rank": 1,
+      "formula": "8 + proficiency + @:spell-primary-stat:",
+      "characterId": 213341
+    },
+    {
+      "id": 603020,
+      "parentId": 603017,
+      "type": "checkboxes",
+      "data": {},
+      "name": "spell-slots-used-one",
+      "value": "",
+      "rank": 2,
+      "characterId": 213341
+    },
+    {
+      "id": 603021,
+      "parentId": 603020,
+      "type": "number",
+      "data": {},
+      "name": "spell-slots-used-one-max",
+      "value": 3,
+      "rank": 158,
+      "formula": "spell-slots-level-one",
+      "characterId": 213341
+    },
+    {
+      "id": 603022,
+      "parentId": 603017,
+      "type": "checkboxes",
+      "data": {},
+      "name": "Spell-slots-used-two",
+      "value": "",
+      "rank": 3,
+      "characterId": 213341
+    },
+    {
+      "id": 603023,
+      "parentId": 603022,
+      "type": "number",
+      "data": {},
+      "name": "Spell-slots-used-two-max",
+      "value": 2,
+      "rank": 161,
+      "formula": "Spell-slots-level-two",
+      "characterId": 213341
+    },
+    {
+      "id": 603024,
+      "parentId": 603017,
+      "type": "checkboxes",
+      "data": {},
+      "name": "Spell-slots-used-three",
+      "value": "",
+      "rank": 4,
+      "characterId": 213341
+    },
+    {
+      "id": 603025,
+      "parentId": 603024,
+      "type": "number",
+      "data": {},
+      "name": "Spell-slots-used-three-max",
+      "value": 1,
+      "rank": 164,
+      "formula": "Spell-slots-level-three",
+      "characterId": 213341
+    },
+    {
+      "id": 603026,
+      "parentId": 602999,
+      "type": "title-section",
+      "data": {},
+      "value": "Combat Messages",
+      "rank": -3,
+      "characterId": 213341
+    },
+    {
+      "id": 603027,
+      "parentId": null,
+      "type": "tab-section",
+      "data": {},
+      "value": "Combat",
+      "rank": -3,
+      "characterId": 213341
+    },
+    {
+      "id": 603028,
+      "parentId": 603027,
+      "type": "title-section",
+      "data": {},
+      "value": "Quick Stats",
+      "rank": -3,
+      "characterId": 213341
+    },
+    {
+      "id": 603029,
+      "parentId": 603028,
+      "type": "horizontal-section",
+      "data": {},
+      "value": "",
+      "rank": -4,
+      "characterId": 213341
+    },
+    {
+      "id": 603030,
+      "parentId": 603029,
+      "type": "section",
+      "data": {},
+      "value": "",
+      "rank": 0,
+      "size": 50,
+      "characterId": 213341
+    },
+    {
+      "id": 603031,
+      "parentId": 603030,
+      "type": "checkbox",
+      "data": {},
+      "name": "attack-with-advantage",
+      "value": "",
+      "rank": 3,
+      "characterId": 213341
+    },
+    {
+      "id": 603032,
+      "parentId": 603030,
+      "type": "checkbox",
+      "data": {},
+      "name": "attack-with-disadvantage",
+      "value": "",
+      "rank": 4,
+      "characterId": 213341
+    },
+    {
+      "id": 603033,
+      "parentId": 603030,
+      "type": "text",
+      "data": {},
+      "name": "quick-instructions",
+      "value": "click the send icon ->",
+      "rank": -2,
+      "message": "Many fields generate a roll or give instructions if you double click them, they may appear in the chat POSTING AS preview box first and then you have to hit send. You can also send a Saved Message with !m and the (case sensitive!) name of the message or enough of the name to uniquely identify it, try !m AT01",
+      "formula": "\"click the send icon ->\"",
+      "characterId": 213341
+    },
+    {
+      "id": 603034,
+      "parentId": 603030,
+      "type": "number",
+      "data": {},
+      "name": "initiative",
+      "value": 2,
+      "rank": 0,
+      "message": "!r initiative = 1d20 + initiative",
+      "formula": "dex",
+      "characterId": 213341
+    },
+    {
+      "id": 603035,
+      "parentId": 603030,
+      "type": "text",
+      "data": {},
+      "name": "AC-Summary",
+      "value": "Norm: 20 No Shield: 18",
+      "rank": 6,
+      "formula": "\"Norm: \" + armor-class + \" No Shield: \" + (armor-class - ac-shield-bonus)",
+      "characterId": 213341
+    },
+    {
+      "id": 603036,
+      "parentId": 603030,
+      "type": "checkbox",
+      "data": {},
+      "name": "Inspiration",
+      "value": "",
+      "rank": 1,
+      "characterId": 213341
+    },
+    {
+      "id": 603037,
+      "parentId": 603030,
+      "type": "checkbox",
+      "data": {},
+      "name": "shield-equipped",
+      "value": true,
+      "rank": 5,
+      "characterId": 213341
+    },
+    {
+      "id": 603038,
+      "parentId": 603029,
+      "type": "section",
+      "data": {},
+      "value": "",
+      "rank": 1,
+      "size": 50,
+      "characterId": 213341
+    },
+    {
+      "id": 603039,
+      "parentId": 603038,
+      "type": "number",
+      "data": {},
+      "name": "speed",
+      "value": 30,
+      "rank": -1,
+      "characterId": 213341
+    },
+    {
+      "id": 603040,
+      "parentId": 603038,
+      "type": "title-section",
+      "data": {},
+      "value": "Senses",
+      "rank": 0,
+      "characterId": 213341
+    },
+    {
+      "id": 603041,
+      "parentId": 603040,
+      "type": "number",
+      "data": {},
+      "name": "dark-vision",
+      "value": 60,
+      "rank": 108,
+      "characterId": 213341
+    },
+    {
+      "id": 603042,
+      "parentId": 603040,
+      "type": "number",
+      "data": {},
+      "name": "passive-perception",
+      "value": 13,
+      "rank": 109,
+      "formula": "10 + perception",
+      "characterId": 213341
+    },
+    {
+      "id": 603043,
+      "parentId": 603040,
+      "type": "number",
+      "data": {},
+      "name": "passive-stealth",
+      "value": 12,
+      "rank": 110,
+      "formula": "10 + stealth",
+      "characterId": 213341
+    },
+    {
+      "id": 603044,
+      "parentId": 603028,
+      "type": "title-section",
+      "data": {},
+      "value": "Health (and injury)",
+      "rank": 25,
+      "characterId": 213341
+    },
+    {
+      "id": 603045,
+      "parentId": 603044,
+      "type": "horizontal-section",
+      "data": {},
+      "value": "",
+      "rank": 0,
+      "characterId": 213341
+    },
+    {
+      "id": 603046,
+      "parentId": 603045,
+      "type": "section",
+      "data": {},
+      "value": "",
+      "rank": 0,
+      "size": 50,
+      "characterId": 213341
+    },
+    {
+      "id": 603047,
+      "parentId": 603046,
+      "type": "health",
+      "data": {},
+      "name": "hit-points",
+      "local": true,
+      "value": 2,
+      "rank": 0,
+      "characterId": 213341
+    },
+    {
+      "id": 603048,
+      "parentId": 603047,
+      "type": "number",
+      "data": {},
+      "name": "hit-points-temporary",
+      "local": true,
+      "value": "",
+      "rank": 10,
+      "characterId": 213341
+    },
+    {
+      "id": 603049,
+      "parentId": 603047,
+      "type": "number",
+      "data": {},
+      "name": "hit-points-maximum",
+      "local": true,
+      "value": 12,
+      "rank": 9,
+      "characterId": 213341
+    },
+    {
+      "id": 603050,
+      "parentId": 603045,
+      "type": "section",
+      "data": {},
+      "value": "",
+      "rank": 1,
+      "size": 50,
+      "characterId": 213341
+    },
+    {
+      "id": 603051,
+      "parentId": 603050,
+      "type": "paragraph",
+      "data": {},
+      "name": "current-injuries",
+      "value": "",
+      "rank": -1,
+      "characterId": 213341
+    },
+    {
+      "id": 603052,
+      "parentId": 603050,
+      "type": "checkboxes",
+      "data": {},
+      "name": "death-saves-failed",
+      "value": "",
+      "rank": 1,
+      "characterId": 213341
+    },
+    {
+      "id": 603053,
+      "parentId": 603052,
+      "type": "number",
+      "data": {},
+      "name": "death-saves-failed-max",
+      "value": 3,
+      "rank": 13,
+      "characterId": 213341
+    },
+    {
+      "id": 603101,
+      "parentId": 603094,
+      "type": "saving-throw",
+      "data": {},
+      "name": "charisma-save",
+      "value": 1,
+      "rank": 50,
+      "message": "CHA save: {1d20 + charisma-save}",
+      "formula": "charisma + (charisma-save-proficiency ? proficiency : 0)",
+      "characterId": 213341
+    },
+    {
+      "id": 603102,
+      "parentId": 603101,
+      "type": "checkbox",
+      "data": {},
+      "name": "charisma-save-proficiency",
+      "value": "",
+      "rank": 51,
+      "characterId": 213341
+    },
+    {
+      "id": 603054,
+      "parentId": 603050,
+      "type": "checkboxes",
+      "data": {},
+      "name": "death-saves-made",
+      "value": "",
+      "rank": 0,
+      "message": "Attempt a Death Save (need unmodified 10):  This roll {other-roll = 1d20;} Saves made:{death-saves-made = death-saves-made + ( other-roll < 10 ? 0 : 1 )}  Saves failed:{death-saves-failed = death-saves-failed + ( other-roll == 1 ? 2 : other-roll  < 10 ? 1 : 0 )}  {( other-roll == 20 ? \" You revived!\" : \"\" )} {( death-saves-made > 2 ? \"You revived!\" : \" \")} {( death-saves-failed > 2 ? \"You died!\" : \" \")}",
+      "characterId": 213341
+    },
+    {
+      "id": 603055,
+      "parentId": 603054,
+      "type": "number",
+      "data": {},
+      "name": "death-saves-made-max",
+      "value": 3,
+      "rank": 15,
+      "characterId": 213341
+    },
+    {
+      "id": 603056,
+      "parentId": 603027,
+      "type": "title-section",
+      "data": {},
+      "value": "Actions and rests",
+      "rank": 5,
+      "characterId": 213341
+    },
+    {
+      "id": 603057,
+      "parentId": 603056,
+      "type": "title-section",
+      "data": {},
+      "value": "Once Per Day",
+      "rank": 2,
+      "characterId": 213341
+    },
+    {
+      "id": 603058,
+      "parentId": 603057,
+      "type": "paragraph",
+      "data": {},
+      "name": "daily-acts",
+      "value": "<p>After long rest (1 per day, 8 hours min) regain all HP, regain Recovery Dice = 1/2 level</p><p>Wizards &amp; Clerics: recover spell slots,&nbsp;change prepared spells</p>",
+      "rank": 35,
+      "characterId": 213341
+    },
+    {
+      "id": 603059,
+      "parentId": 603057,
+      "type": "horizontal-section",
+      "data": {},
+      "value": "",
+      "rank": 38,
+      "characterId": 213341
+    },
+    {
+      "id": 603060,
+      "parentId": 603059,
+      "type": "section",
+      "data": {},
+      "value": "",
+      "rank": 0,
+      "size": 50,
+      "characterId": 213341
+    },
+    {
+      "id": 603061,
+      "parentId": 603060,
+      "type": "text",
+      "data": {},
+      "name": "take-long-rest-now",
+      "value": "Click Send ->",
+      "rank": 0,
+      "message": "!h Taking a long rest. Regain all HP {hit-points = @:hit-points-maximum:} Regain level/2 (round up) recovery dice {recovery-dice-used = (recovery-dice-used <= ceil(level/2) ? 0 : recovery-dice-used - ceil(level/2))}, regain spell slots (NOTE: Attribute assignment bug means do individually){spell-slots-used-one=0}{spell-slots-used-two=0}{spell-slots-used-three=0}, reset Arcane Recovery {arcane-recovery-used = 0}, reset Second Wind {second-wind-used = 0}, If fighter level 2+ then reset Action Surge {action-surge-used = 0}. If Cleric level 2+ reset Channel Divinity {channel-divinity-used= 0}.",
+      "formula": "\"Click Send ->\"",
+      "characterId": 213341
+    },
+    {
+      "id": 603062,
+      "parentId": 603059,
+      "type": "section",
+      "data": {},
+      "value": "",
+      "rank": 1,
+      "size": 50,
+      "characterId": 213341
+    },
+    {
+      "id": 603063,
+      "parentId": 603062,
+      "type": "checkbox",
+      "data": {},
+      "name": "arcane-recovery-used",
+      "value": "",
+      "rank": 0,
+      "message": "Recover {(1 - arcane-recovery-used) * ceil(level / 2)} levels of spell slots. Check the box {arcane-recovery-used = 1}",
+      "characterId": 213341
+    },
+    {
+      "id": 603064,
+      "parentId": 603056,
+      "type": "paragraph",
+      "data": {},
+      "name": "combat-notes",
+      "value": "<p>Mostly attack wielding Warhammer and Shield. Attacks are 1 handed Warhammer, 2 handed Warhammer, and light crossbow. They are on the Actions tab (tab 4) or can be accessed by pasting in chat \"!m AT01\", \"!m AT02\", or \"!m AT03\" (case sensitive) respectively. &nbsp;</p>",
+      "rank": -1,
+      "characterId": 213341
+    },
+    {
+      "id": 603065,
+      "parentId": 603056,
+      "type": "title-section",
+      "data": {},
+      "value": "At Will",
+      "rank": 0,
+      "characterId": 213341
+    },
+    {
+      "id": 603066,
+      "parentId": 603065,
+      "type": "horizontal-section",
+      "data": {},
+      "value": "",
+      "rank": 26,
+      "characterId": 213341
+    },
+    {
+      "id": 603067,
+      "parentId": 603066,
+      "type": "section",
+      "data": {},
+      "value": "",
+      "rank": 0,
+      "size": 50,
+      "characterId": 213341
+    },
+    {
+      "id": 603068,
+      "parentId": 603067,
+      "type": "text",
+      "data": {},
+      "name": "attack-melee",
+      "value": "AT01-Warhammer",
+      "rank": 1,
+      "message": "Warhammer (1 handed): Raw { attack-roll = 1d20@:csi-attack-suffix: } {csi-crit-message = ( attack-roll < crit-on-natural ? \" (norm) \" : \" (crit?) \")} {csi-crit-bonus-dice = (attack-roll < crit-on-natural ? +0 : +1)} To Hit {attack-roll + prof + str } damage  {@:csi-crit-bonus-dice + 1:d8 + str}  bludgeoning",
+      "characterId": 213341
+    },
+    {
+      "id": 603069,
+      "parentId": 603067,
+      "type": "text",
+      "data": {},
+      "name": "attack-ranged",
+      "value": "AT03-crossbow-light",
+      "rank": 2,
+      "message": "light crossbow (loading, 2 handed, range 80/320): Raw { attack-roll = 1d20@:csi-attack-suffix: } {csi-crit-message = ( attack-roll < crit-on-natural ? \" (norm) \" : \" (crit?) \")} {csi-crit-bonus-dice = (attack-roll < crit-on-natural ? +0 : +1)} To Hit {attack-roll + prof + dexterity }   damage  {@:csi-crit-bonus-dice + 1:d8 + dexterity} piercing",
+      "characterId": 213341
+    },
+    {
+      "id": 603070,
+      "parentId": 603067,
+      "type": "paragraph",
+      "data": {},
+      "name": "at-will-acts",
+      "value": "<p>Protection (Fighter style): every round (while shield equipped) as reaction impose disadvantage on 1 attack targeting ally within 5'</p>",
+      "rank": 0,
+      "characterId": 213341
+    },
+    {
+      "id": 603071,
+      "parentId": 603066,
+      "type": "section",
+      "data": {},
+      "value": "",
+      "rank": 1,
+      "size": 50,
+      "characterId": 213341
+    },
+    {
+      "id": 603072,
+      "parentId": 603071,
+      "type": "text",
+      "data": {},
+      "name": "Ammo-type-A",
+      "value": "bolts",
+      "rank": 2,
+      "characterId": 213341
+    },
+    {
+      "id": 603073,
+      "parentId": 603071,
+      "type": "number",
+      "data": {},
+      "name": "Ammo-owned-A",
+      "value": 20,
+      "rank": 3,
+      "characterId": 213341
+    },
+    {
+      "id": 603074,
+      "parentId": 603071,
+      "type": "checkboxes",
+      "data": {},
+      "name": "ammo-used-A1",
+      "value": "",
+      "rank": 4,
+      "characterId": 213341
+    },
+    {
+      "id": 603075,
+      "parentId": 603074,
+      "type": "number",
+      "data": {},
+      "name": "ammo-used-A1-max",
+      "value": 10,
+      "rank": 21,
+      "characterId": 213341
+    },
+    {
+      "id": 603076,
+      "parentId": 603071,
+      "type": "checkboxes",
+      "data": {},
+      "name": "ammo-used-A2",
+      "value": "",
+      "rank": 5,
+      "characterId": 213341
+    },
+    {
+      "id": 603077,
+      "parentId": 603076,
+      "type": "number",
+      "data": {},
+      "name": "ammo-used-A2-max",
+      "value": 10,
+      "rank": 23,
+      "characterId": 213341
+    },
+    {
+      "id": 603078,
+      "parentId": 603056,
+      "type": "title-section",
+      "data": {},
+      "value": "Short Rest",
+      "rank": 1,
+      "characterId": 213341
+    },
+    {
+      "id": 603079,
+      "parentId": 603078,
+      "type": "paragraph",
+      "data": {},
+      "name": "short-rest-acts",
+      "value": "<p>After any short rest can spend recovery dice to regain HP. Fighter regains Second Wind. Fighter level 2+ regains Action Surge (take 1 extra action once).</p>",
+      "rank": 25,
+      "characterId": 213341
+    },
+    {
+      "id": 603080,
+      "parentId": 603078,
+      "type": "horizontal-section",
+      "data": {},
+      "value": "",
+      "rank": 26,
+      "characterId": 213341
+    },
+    {
+      "id": 603081,
+      "parentId": 603080,
+      "type": "section",
+      "data": {},
+      "value": "",
+      "rank": 0,
+      "size": 50,
+      "characterId": 213341
+    },
+    {
+      "id": 603082,
+      "parentId": 603081,
+      "type": "checkbox",
+      "data": {},
+      "name": "action-surge-used",
+      "value": "",
+      "rank": 2,
+      "message": "",
+      "characterId": 213341
+    },
+    {
+      "id": 603083,
+      "parentId": 603081,
+      "type": "text",
+      "data": {},
+      "name": "take-short-rest-now",
+      "value": "Click Send ->",
+      "rank": 0,
+      "message": "!h If wizard and Arcane Recovery not used can use now. If fighter reset Second Wind {second-wind-used = 0} and if level > 2 Action Surge {action-surge-used = 0}. If Cleric level 2+ reset Channel Divinity {channel-divinity-used= 0}",
+      "formula": "\"Click Send ->\"",
+      "characterId": 213341
+    },
+    {
+      "id": 603084,
+      "parentId": 603081,
+      "type": "checkbox",
+      "data": {},
+      "name": "Second-Wind-used",
+      "value": "",
+      "rank": 1,
+      "message": "Restore {other-roll = (1-Second-Wind-used) * (1d10 + level)} HP for a total of {hit-points = min(hit-points + other-roll, hit-points-maximum)} out of {hit-points-maximum} hit points. Check the box {Second-Wind-used = 1}",
+      "characterId": 213341
+    },
+    {
+      "id": 603085,
+      "parentId": 603080,
+      "type": "section",
+      "data": {},
+      "value": "",
+      "rank": 1,
+      "size": 50,
+      "characterId": 213341
+    },
+    {
+      "id": 603086,
+      "parentId": 603085,
+      "type": "checkboxes",
+      "data": {},
+      "name": "channel-divinity-used",
+      "value": "",
+      "rank": 2,
+      "message": "",
+      "characterId": 213341
+    },
+    {
+      "id": 603087,
+      "parentId": 603086,
+      "type": "number",
+      "data": {},
+      "name": "channel-divinity-used-max",
+      "value": 1,
+      "rank": 34,
+      "formula": "( level > 1 ? 1 : 0) + ( level > 5 ? 1 : 0) + ( level > 17 ? 1 : 0)",
+      "characterId": 213341
+    },
+    {
+      "id": 603088,
+      "parentId": 603085,
+      "type": "number",
+      "data": {},
+      "name": "HP-Recovery-dice",
+      "value": 3,
+      "rank": 0,
+      "formula": "level",
+      "characterId": 213341
+    },
+    {
+      "id": 603089,
+      "parentId": 603085,
+      "type": "checkboxes",
+      "data": {},
+      "name": "Recovery-dice-used",
+      "value": "",
+      "rank": 1,
+      "message": "Recovery die attempted for {other-roll = ( Recovery-dice-used >= HP-Recovery-dice ? 0 : max(1d@:hit-die-size: + constitution, 0))} HP for a total of {hit-points = ( Recovery-dice-used < HP-Recovery-dice ? min(hit-points + other-roll, hit-points-maximum) : hit-points )} out of {hit-points-maximum} hit points. Check the box {Recovery-dice-used = ( Recovery-dice-used < HP-Recovery-dice ? Recovery-dice-used + 1 : Recovery-dice-used ) }",
+      "characterId": 213341
+    },
+    {
+      "id": 603090,
+      "parentId": 603089,
+      "type": "number",
+      "data": {},
+      "name": "Recovery-dice-used-max",
+      "value": 3,
+      "rank": 30,
+      "formula": "level",
+      "characterId": 213341
+    },
+    {
+      "id": 603091,
+      "parentId": null,
+      "type": "tab-section",
+      "data": {},
+      "value": "Stats/Saves/Skills",
+      "rank": -2,
+      "characterId": 213341
+    },
+    {
+      "id": 603092,
+      "parentId": 603091,
+      "type": "horizontal-section",
+      "data": {},
+      "value": "",
+      "rank": -4,
+      "characterId": 213341
+    },
+    {
+      "id": 603093,
+      "parentId": 603092,
+      "type": "section",
+      "data": {},
+      "value": "",
+      "rank": 0,
+      "size": 50,
+      "characterId": 213341
+    },
+    {
+      "id": 603094,
+      "parentId": 603093,
+      "type": "title-section",
+      "data": {},
+      "value": "Saving Throws",
+      "rank": 1,
+      "characterId": 213341
+    },
+    {
+      "id": 603095,
+      "parentId": 603094,
+      "type": "saving-throw",
+      "data": {},
+      "name": "dexterity-save",
+      "value": 2,
+      "rank": 42,
+      "message": "DEX save: {1d20 + dexterity-save}",
+      "formula": "dexterity + (dexterity-save-proficiency ? proficiency : 0)",
+      "characterId": 213341
+    },
+    {
+      "id": 603096,
+      "parentId": 603095,
+      "type": "checkbox",
+      "data": {},
+      "name": "dexterity-save-proficiency",
+      "value": "",
+      "rank": 43,
+      "characterId": 213341
+    },
+    {
+      "id": 603098,
+      "parentId": 603097,
+      "type": "checkbox",
+      "data": {},
+      "name": "constitution-save-proficiency",
+      "value": "",
+      "rank": 45,
+      "characterId": 213341
+    },
+    {
+      "id": 603099,
+      "parentId": 603094,
+      "type": "saving-throw",
+      "data": {},
+      "name": "wisdom-save",
+      "value": 3,
+      "rank": 48,
+      "message": "WIS save: {1d20 + wisdom-save}",
+      "formula": "wisdom + (wisdom-save-proficiency ? proficiency : 0)",
+      "characterId": 213341
+    },
+    {
+      "id": 603100,
+      "parentId": 603099,
+      "type": "checkbox",
+      "data": {},
+      "name": "wisdom-save-proficiency",
+      "value": false,
+      "rank": 49,
+      "characterId": 213341
+    },
+    {
+      "id": 603183,
+      "parentId": 603181,
+      "type": "checkbox",
+      "data": {},
+      "name": "investigation-expertise",
+      "value": "",
+      "rank": 73,
+      "characterId": 213341
+    },
+    {
+      "id": 603103,
+      "parentId": 603094,
+      "type": "saving-throw",
+      "data": {},
+      "name": "intelligence-save",
+      "value": 1,
+      "rank": 46,
+      "message": "INT save: {1d20 + intelligence-save}",
+      "formula": "intelligence + (intelligence-save-proficiency ? proficiency : 0)",
+      "characterId": 213341
+    },
+    {
+      "id": 603104,
+      "parentId": 603103,
+      "type": "checkbox",
+      "data": {},
+      "name": "intelligence-save-proficiency",
+      "value": "",
+      "rank": 47,
+      "characterId": 213341
+    },
+    {
+      "id": 603105,
+      "parentId": 603094,
+      "type": "saving-throw",
+      "data": {},
+      "name": "strength-save",
+      "value": 2,
+      "rank": 40,
+      "message": "STR save: {1d20 + strength-save}",
+      "formula": "strength + (strength-save-proficiency ? proficiency : 0)",
+      "characterId": 213341
+    },
+    {
+      "id": 603106,
+      "parentId": 603105,
+      "type": "checkbox",
+      "data": {},
+      "name": "strength-save-proficiency",
+      "value": "",
+      "rank": 41,
+      "characterId": 213341
+    },
+    {
+      "id": 603107,
+      "parentId": 603093,
+      "type": "title-section",
+      "data": {},
+      "value": "Abilities",
+      "rank": 0,
+      "characterId": 213341
+    },
+    {
+      "id": 603108,
+      "parentId": 603107,
+      "type": "table",
+      "data": {
+        "headers": [
+          "Name",
+          "Mod",
+          "Total",
+          "Base",
+          "Gear",
+          "Temp"
+        ]
+      },
+      "value": "",
+      "rank": -1,
+      "characterId": 213341
+    },
+    {
+      "id": 603109,
+      "parentId": 603108,
+      "type": "text",
+      "data": {},
+      "name": "labelStr",
+      "value": "Strength",
+      "rank": -3,
+      "message": "",
+      "characterId": 213341
+    },
+    {
+      "id": 603110,
+      "parentId": 603108,
+      "type": "number",
+      "data": {},
+      "name": "strength",
+      "value": 2,
+      "rank": -2,
+      "message": "strength check: {1d20 + strength}",
+      "formula": "floor((totalStr - 10)/2)",
+      "characterId": 213341
+    },
+    {
+      "id": 603111,
+      "parentId": 603108,
+      "type": "number",
+      "data": {},
+      "name": "GearStr",
+      "value": 0,
+      "rank": 1,
+      "characterId": 213341
+    },
+    {
+      "id": 603112,
+      "parentId": 603108,
+      "type": "number",
+      "data": {},
+      "name": "TempStr",
+      "value": 0,
+      "rank": 1,
+      "characterId": 213341
+    },
+    {
+      "id": 603113,
+      "parentId": 603108,
+      "type": "text",
+      "data": {},
+      "name": "labelDex",
+      "value": "Dexterity",
+      "rank": 2,
+      "characterId": 213341
+    },
+    {
+      "id": 603114,
+      "parentId": 603108,
+      "type": "number",
+      "data": {},
+      "name": "TotalStr",
+      "value": 15,
+      "rank": -1,
+      "formula": "baseStr + gearStr + tempStr",
+      "characterId": 213341
+    },
+    {
+      "id": 603115,
+      "parentId": 603108,
+      "type": "text",
+      "data": {},
+      "name": "labelCon",
+      "value": "Constitution",
+      "rank": 9,
+      "characterId": 213341
+    },
+    {
+      "id": 603116,
+      "parentId": 603108,
+      "type": "text",
+      "data": {},
+      "name": "labelInt",
+      "value": "Intelligence",
+      "rank": 15,
+      "characterId": 213341
+    },
+    {
+      "id": 603117,
+      "parentId": 603108,
+      "type": "text",
+      "data": {},
+      "name": "labelWis",
+      "value": "Wisdom",
+      "rank": 23,
+      "characterId": 213341
+    },
+    {
+      "id": 603118,
+      "parentId": 603108,
+      "type": "number",
+      "data": {},
+      "name": "dexterity",
+      "value": 2,
+      "rank": 3,
+      "message": "dexterity check: {1d20 + dexterity}",
+      "formula": "floor((totalDex - 10)/2)",
+      "characterId": 213341
+    },
+    {
+      "id": 603119,
+      "parentId": 603108,
+      "type": "number",
+      "data": {},
+      "name": "BaseStr",
+      "value": 15,
+      "rank": 0,
+      "formula": "RolledStr + RaceStr + BackgroundStr + LevelingStr + SpecialStr\n",
+      "characterId": 213341
+    },
+    {
+      "id": 603120,
+      "parentId": 603119,
+      "type": "number",
+      "data": {},
+      "name": "LevelingStr",
+      "value": 0,
+      "rank": 0,
+      "characterId": 213341
+    },
+    {
+      "id": 603121,
+      "parentId": 603119,
+      "type": "number",
+      "data": {},
+      "name": "BackgroundStr",
+      "value": 0,
+      "rank": -1,
+      "characterId": 213341
+    },
+    {
+      "id": 603122,
+      "parentId": 603119,
+      "type": "number",
+      "data": {},
+      "name": "RaceStr",
+      "value": 0,
+      "rank": -2,
+      "characterId": 213341
+    },
+    {
+      "id": 603123,
+      "parentId": 603119,
+      "type": "number",
+      "data": {},
+      "name": "RolledStr",
+      "value": 15,
+      "rank": -3,
+      "characterId": 213341
+    },
+    {
+      "id": 603124,
+      "parentId": 603119,
+      "type": "number",
+      "data": {},
+      "name": "SpecialStr",
+      "value": 0,
+      "rank": 3,
+      "characterId": 213341
+    },
+    {
+      "id": 603125,
+      "parentId": 603108,
+      "type": "text",
+      "data": {},
+      "name": "labelCha",
+      "value": "Charisma",
+      "rank": 33,
+      "characterId": 213341
+    },
+    {
+      "id": 603127,
+      "parentId": 603108,
+      "type": "number",
+      "data": {},
+      "name": "intelligence",
+      "value": 1,
+      "rank": 16,
+      "message": "intelligence check: {1d20 + intelligence}",
+      "formula": "floor((totalInt - 10)/2)",
+      "characterId": 213341
+    },
+    {
+      "id": 603128,
+      "parentId": 603108,
+      "type": "number",
+      "data": {},
+      "name": "wisdom",
+      "value": 3,
+      "rank": 25,
+      "message": "wisdom check: {1d20 + wisdom}",
+      "formula": "floor((totalWis - 10)/2)",
+      "characterId": 213341
+    },
+    {
+      "id": 603130,
+      "parentId": 603108,
+      "type": "number",
+      "data": {},
+      "name": "TotalDex",
+      "value": 14,
+      "rank": 4,
+      "formula": "BaseDex + GearDex + TempDex",
+      "characterId": 213341
+    },
+    {
+      "id": 603131,
+      "parentId": 603108,
+      "type": "number",
+      "data": {},
+      "name": "BaseDex",
+      "value": 14,
+      "rank": 5,
+      "formula": "RolledDex + RaceDex + BackgroundDex + LevelingDex + SpecialDex",
+      "characterId": 213341
+    },
+    {
+      "id": 603132,
+      "parentId": 603131,
+      "type": "number",
+      "data": {},
+      "name": "RolledDex",
+      "value": 12,
+      "rank": -3,
+      "characterId": 213341
+    },
+    {
+      "id": 603133,
+      "parentId": 603131,
+      "type": "number",
+      "data": {},
+      "name": "LevelingDex",
+      "value": 0,
+      "rank": 0,
+      "characterId": 213341
+    },
+    {
+      "id": 603134,
+      "parentId": 603131,
+      "type": "number",
+      "data": {},
+      "name": "BackgroundDex",
+      "value": 0,
+      "rank": -1,
+      "characterId": 213341
+    },
+    {
+      "id": 603135,
+      "parentId": 603131,
+      "type": "number",
+      "data": {},
+      "name": "RaceDex",
+      "value": 2,
+      "rank": -2,
+      "characterId": 213341
+    },
+    {
+      "id": 603136,
+      "parentId": 603131,
+      "type": "number",
+      "data": {},
+      "name": "SpecialDex",
+      "value": 0,
+      "rank": 0,
+      "characterId": 213341
+    },
+    {
+      "id": 603137,
+      "parentId": 603108,
+      "type": "number",
+      "data": {},
+      "name": "GearDex",
+      "value": 0,
+      "rank": 6,
+      "characterId": 213341
+    },
+    {
+      "id": 603138,
+      "parentId": 603108,
+      "type": "number",
+      "data": {},
+      "name": "TempDex",
+      "value": 0,
+      "rank": 8,
+      "characterId": 213341
+    },
+    {
+      "id": 603139,
+      "parentId": 603108,
+      "type": "number",
+      "data": {},
+      "name": "TotalCon",
+      "value": 9,
+      "rank": 11,
+      "formula": "BaseCon + GearCon + TempCon",
+      "characterId": 213341
+    },
+    {
+      "id": 603140,
+      "parentId": 603108,
+      "type": "number",
+      "data": {},
+      "name": "BaseCon",
+      "value": 9,
+      "rank": 12,
+      "formula": "RolledCon + RaceCon + BackgroundCon + LevelingCon + SpecialCon",
+      "characterId": 213341
+    },
+    {
+      "id": 603141,
+      "parentId": 603140,
+      "type": "number",
+      "data": {},
+      "name": "RolledCon",
+      "value": 9,
+      "rank": 0,
+      "characterId": 213341
+    },
+    {
+      "id": 603142,
+      "parentId": 603140,
+      "type": "number",
+      "data": {},
+      "name": "RaceCon",
+      "value": 0,
+      "rank": 0,
+      "characterId": 213341
+    },
+    {
+      "id": 603143,
+      "parentId": 603140,
+      "type": "number",
+      "data": {},
+      "name": "BackgroundCon",
+      "value": 0,
+      "rank": 0,
+      "characterId": 213341
+    },
+    {
+      "id": 603144,
+      "parentId": 603140,
+      "type": "number",
+      "data": {},
+      "name": "LevelingCon",
+      "value": 0,
+      "rank": 0,
+      "characterId": 213341
+    },
+    {
+      "id": 603145,
+      "parentId": 603140,
+      "type": "number",
+      "data": {},
+      "name": "SpecialCon",
+      "value": 0,
+      "rank": 0,
+      "characterId": 213341
+    },
+    {
+      "id": 603146,
+      "parentId": 603108,
+      "type": "number",
+      "data": {},
+      "name": "GearCon",
+      "value": 0,
+      "rank": 13,
+      "characterId": 213341
+    },
+    {
+      "id": 603147,
+      "parentId": 603108,
+      "type": "number",
+      "data": {},
+      "name": "TempCon",
+      "value": 0,
+      "rank": 14,
+      "characterId": 213341
+    },
+    {
+      "id": 603148,
+      "parentId": 603108,
+      "type": "number",
+      "data": {},
+      "name": "TotalInt",
+      "value": 12,
+      "rank": 17,
+      "formula": "BaseInt + GearInt + TempInt",
+      "characterId": 213341
+    },
+    {
+      "id": 603149,
+      "parentId": 603108,
+      "type": "number",
+      "data": {},
+      "name": "TotalWis",
+      "value": 16,
+      "rank": 26,
+      "formula": "BaseWis + GearWis + TempWis",
+      "characterId": 213341
+    },
+    {
+      "id": 603150,
+      "parentId": 603108,
+      "type": "number",
+      "data": {},
+      "name": "GearInt",
+      "value": 0,
+      "rank": 19,
+      "characterId": 213341
+    },
+    {
+      "id": 603152,
+      "parentId": 603151,
+      "type": "number",
+      "data": {},
+      "name": "RolledWis",
+      "value": 15,
+      "rank": 0,
+      "characterId": 213341
+    },
+    {
+      "id": 603153,
+      "parentId": 603151,
+      "type": "number",
+      "data": {},
+      "name": "RaceWis",
+      "value": 0,
+      "rank": 0,
+      "characterId": 213341
+    },
+    {
+      "id": 603154,
+      "parentId": 603151,
+      "type": "number",
+      "data": {},
+      "name": "BackgroundWis",
+      "value": 1,
+      "rank": 0,
+      "characterId": 213341
+    },
+    {
+      "id": 603155,
+      "parentId": 603151,
+      "type": "number",
+      "data": {},
+      "name": "LevelingWis",
+      "value": 0,
+      "rank": 0,
+      "characterId": 213341
+    },
+    {
+      "id": 603156,
+      "parentId": 603151,
+      "type": "number",
+      "data": {},
+      "name": "SpecialWis",
+      "value": 0,
+      "rank": 0,
+      "characterId": 213341
+    },
+    {
+      "id": 603157,
+      "parentId": 603108,
+      "type": "number",
+      "data": {},
+      "name": "GearWis",
+      "value": 0,
+      "rank": 28,
+      "characterId": 213341
+    },
+    {
+      "id": 603158,
+      "parentId": 603108,
+      "type": "number",
+      "data": {},
+      "name": "TempWis",
+      "value": 0,
+      "rank": 29,
+      "characterId": 213341
+    },
+    {
+      "id": 603160,
+      "parentId": 603159,
+      "type": "number",
+      "data": {},
+      "name": "RolledCha",
+      "value": 12,
+      "rank": 0,
+      "characterId": 213341
+    },
+    {
+      "id": 603161,
+      "parentId": 603159,
+      "type": "number",
+      "data": {},
+      "name": "RaceCha",
+      "value": 0,
+      "rank": 0,
+      "characterId": 213341
+    },
+    {
+      "id": 603162,
+      "parentId": 603159,
+      "type": "number",
+      "data": {},
+      "name": "BackgroundCha",
+      "value": 0,
+      "rank": 0,
+      "characterId": 213341
+    },
+    {
+      "id": 603163,
+      "parentId": 603159,
+      "type": "number",
+      "data": {},
+      "name": "LevelingCha",
+      "value": 0,
+      "rank": 0,
+      "characterId": 213341
+    },
+    {
+      "id": 603164,
+      "parentId": 603159,
+      "type": "number",
+      "data": {},
+      "name": "SpecialCha",
+      "value": 0,
+      "rank": 0,
+      "characterId": 213341
+    },
+    {
+      "id": 603165,
+      "parentId": 603108,
+      "type": "number",
+      "data": {},
+      "name": "GearCha",
+      "value": 0,
+      "rank": 37,
+      "characterId": 213341
+    },
+    {
+      "id": 603166,
+      "parentId": 603108,
+      "type": "number",
+      "data": {},
+      "name": "TempCha",
+      "value": 0,
+      "rank": 37,
+      "characterId": 213341
+    },
+    {
+      "id": 603167,
+      "parentId": 603108,
+      "type": "number",
+      "data": {},
+      "name": "TempInt",
+      "value": 0,
+      "rank": 20,
+      "characterId": 213341
+    },
+    {
+      "id": 603169,
+      "parentId": 603108,
+      "type": "number",
+      "data": {},
+      "name": "BaseInt",
+      "value": 12,
+      "rank": 18,
+      "formula": "RolledInt + RaceInt + BackgroundInt + LevelingInt + SpecialInt",
+      "characterId": 213341
+    },
+    {
+      "id": 603170,
+      "parentId": 603169,
+      "type": "number",
+      "data": {},
+      "name": "RolledInt",
+      "value": 11,
+      "rank": 0,
+      "characterId": 213341
+    },
+    {
+      "id": 603171,
+      "parentId": 603169,
+      "type": "number",
+      "data": {},
+      "name": "RaceInt",
+      "value": 1,
+      "rank": 0,
+      "characterId": 213341
+    },
+    {
+      "id": 603172,
+      "parentId": 603169,
+      "type": "number",
+      "data": {},
+      "name": "BackgroundInt",
+      "value": 0,
+      "rank": 0,
+      "characterId": 213341
+    },
+    {
+      "id": 603173,
+      "parentId": 603169,
+      "type": "number",
+      "data": {},
+      "name": "LevelingInt",
+      "value": 0,
+      "rank": 1,
+      "characterId": 213341
+    },
+    {
+      "id": 603174,
+      "parentId": 603169,
+      "type": "number",
+      "data": {},
+      "name": "SpecialInt",
+      "value": 0,
+      "rank": 2,
+      "characterId": 213341
+    },
+    {
+      "id": 603175,
+      "parentId": 603107,
+      "type": "paragraph",
+      "data": {},
+      "value": "<p>NOTE: \"Base\" stats are edited by using \"Edit the page\" and \"Edit the control\" and assigning values to the sub-components (Raw Roll, Racial Mod, Level up Mod, etc.)</p>",
+      "rank": 0,
+      "characterId": 213341
+    },
+    {
+      "id": 603176,
+      "parentId": 603092,
+      "type": "section",
+      "data": {},
+      "value": "",
+      "rank": 1,
+      "size": 50,
+      "characterId": 213341
+    },
+    {
+      "id": 603177,
+      "parentId": 603176,
+      "type": "title-section",
+      "data": {},
+      "value": "Skills",
+      "rank": 0,
+      "characterId": 213341
+    },
+    {
+      "id": 603178,
+      "parentId": 603177,
+      "type": "skill",
+      "data": {
+        "subtitle": "dex"
+      },
+      "name": "stealth",
+      "value": 2,
+      "rank": 62,
+      "message": "Stealth check: {1d20 + stealth}",
+      "formula": "dexterity + (stealth-proficiency ? proficiency : jack-of-all-trades ? (floor (proficiency / 2)) : 0) + (stealth-expertise ? proficiency : 0)",
+      "characterId": 213341
+    },
+    {
+      "id": 603179,
+      "parentId": 603178,
+      "type": "checkbox",
+      "data": {},
+      "name": "stealth-proficiency",
+      "value": "",
+      "rank": 63,
+      "characterId": 213341
+    },
+    {
+      "id": 603180,
+      "parentId": 603178,
+      "type": "checkbox",
+      "data": {},
+      "name": "stealth-expertise",
+      "value": "",
+      "rank": 64,
+      "characterId": 213341
+    },
+    {
+      "id": 603181,
+      "parentId": 603177,
+      "type": "skill",
+      "data": {
+        "subtitle": "int"
+      },
+      "name": "investigation",
+      "value": 1,
+      "rank": 71,
+      "message": "Investigation check: {1d20 + investigation}",
+      "formula": "intelligence + (investigation-proficiency ? proficiency : jack-of-all-trades ? (floor (proficiency / 2)) : 0) + (investigation-expertise ? proficiency : 0)",
+      "characterId": 213341
+    },
+    {
+      "id": 603182,
+      "parentId": 603181,
+      "type": "checkbox",
+      "data": {},
+      "name": "investigation-proficiency",
+      "value": "",
+      "rank": 72,
+      "characterId": 213341
+    },
+    {
+      "id": 603185,
+      "parentId": 603184,
+      "type": "checkbox",
+      "data": {},
+      "name": "animal-handling-proficiency",
+      "value": true,
+      "rank": 81,
+      "characterId": 213341
+    },
+    {
+      "id": 603186,
+      "parentId": 603184,
+      "type": "checkbox",
+      "data": {},
+      "name": "animal-handling-expertise",
+      "value": false,
+      "rank": 82,
+      "characterId": 213341
+    },
+    {
+      "id": 603188,
+      "parentId": 603187,
+      "type": "checkbox",
+      "data": {},
+      "name": "insight-proficiency",
+      "value": false,
+      "rank": 84,
+      "characterId": 213341
+    },
+    {
+      "id": 603189,
+      "parentId": 603187,
+      "type": "checkbox",
+      "data": {},
+      "name": "insight-expertise",
+      "value": false,
+      "rank": 85,
+      "characterId": 213341
+    },
+    {
+      "id": 603191,
+      "parentId": 603190,
+      "type": "checkbox",
+      "data": {},
+      "name": "medicine-proficiency",
+      "value": false,
+      "rank": 87,
+      "characterId": 213341
+    },
+    {
+      "id": 603192,
+      "parentId": 603190,
+      "type": "checkbox",
+      "data": {},
+      "name": "medicine-expertise",
+      "value": false,
+      "rank": 88,
+      "characterId": 213341
+    },
+    {
+      "id": 603194,
+      "parentId": 603193,
+      "type": "checkbox",
+      "data": {},
+      "name": "perception-proficiency",
+      "value": false,
+      "rank": 90,
+      "characterId": 213341
+    },
+    {
+      "id": 603195,
+      "parentId": 603193,
+      "type": "checkbox",
+      "data": {},
+      "name": "perception-expertise",
+      "value": false,
+      "rank": 91,
+      "characterId": 213341
+    },
+    {
+      "id": 603197,
+      "parentId": 603196,
+      "type": "checkbox",
+      "data": {},
+      "name": "survival-proficiency",
+      "value": false,
+      "rank": 93,
+      "characterId": 213341
+    },
+    {
+      "id": 603198,
+      "parentId": 603196,
+      "type": "checkbox",
+      "data": {},
+      "name": "survival-expertise",
+      "value": false,
+      "rank": 94,
+      "characterId": 213341
+    },
+    {
+      "id": 603200,
+      "parentId": 603199,
+      "type": "checkbox",
+      "data": {},
+      "name": "deception-proficiency",
+      "value": "",
+      "rank": 96,
+      "characterId": 213341
+    },
+    {
+      "id": 603201,
+      "parentId": 603199,
+      "type": "checkbox",
+      "data": {},
+      "name": "deception-expertise",
+      "value": "",
+      "rank": 97,
+      "characterId": 213341
+    },
+    {
+      "id": 603202,
+      "parentId": 603177,
+      "type": "skill",
+      "data": {
+        "subtitle": "cha"
+      },
+      "name": "intimidation",
+      "value": 1,
+      "rank": 98,
+      "message": "Intimidation check: {1d20 + intimidation}",
+      "formula": "charisma + (intimidation-proficiency ? proficiency : jack-of-all-trades ? (floor (proficiency / 2)) : 0) + (intimidation-expertise ? proficiency : 0)",
+      "characterId": 213341
+    },
+    {
+      "id": 603203,
+      "parentId": 603202,
+      "type": "checkbox",
+      "data": {},
+      "name": "intimidation-proficiency",
+      "value": "",
+      "rank": 99,
+      "characterId": 213341
+    },
+    {
+      "id": 603204,
+      "parentId": 603202,
+      "type": "checkbox",
+      "data": {},
+      "name": "intimidation-expertise",
+      "value": "",
+      "rank": 100,
+      "characterId": 213341
+    },
+    {
+      "id": 603205,
+      "parentId": 603177,
+      "type": "skill",
+      "data": {
+        "subtitle": "cha"
+      },
+      "name": "performance",
+      "value": 1,
+      "rank": 101,
+      "message": "Performance check: {1d20 + performance}",
+      "formula": "charisma + (performance-proficiency ? proficiency : jack-of-all-trades ? (floor (proficiency / 2)) : 0) + (performance-expertise ? proficiency : 0)",
+      "characterId": 213341
+    },
+    {
+      "id": 603206,
+      "parentId": 603205,
+      "type": "checkbox",
+      "data": {},
+      "name": "performance-proficiency",
+      "value": "",
+      "rank": 102,
+      "characterId": 213341
+    },
+    {
+      "id": 603207,
+      "parentId": 603205,
+      "type": "checkbox",
+      "data": {},
+      "name": "performance-expertise",
+      "value": "",
+      "rank": 103,
+      "characterId": 213341
+    },
+    {
+      "id": 603208,
+      "parentId": 603177,
+      "type": "skill",
+      "data": {
+        "subtitle": "cha"
+      },
+      "name": "persuasion",
+      "value": 1,
+      "rank": 104,
+      "message": "Persuasion check: {1d20 + persuasion}",
+      "formula": "charisma + (persuasion-proficiency ? proficiency : jack-of-all-trades ? (floor (proficiency / 2)) : 0) + (persuasion-expertise ? proficiency : 0)",
+      "characterId": 213341
+    },
+    {
+      "id": 603209,
+      "parentId": 603208,
+      "type": "checkbox",
+      "data": {},
+      "name": "persuasion-proficiency",
+      "value": "",
+      "rank": 105,
+      "characterId": 213341
+    },
+    {
+      "id": 603210,
+      "parentId": 603208,
+      "type": "checkbox",
+      "data": {},
+      "name": "persuasion-expertise",
+      "value": "",
+      "rank": 106,
+      "characterId": 213341
+    },
+    {
+      "id": 603211,
+      "parentId": 603177,
+      "type": "checkbox",
+      "data": {},
+      "name": "jack-of-all-trades",
+      "value": "",
+      "rank": 107,
+      "characterId": 213341
+    },
+    {
+      "id": 603212,
+      "parentId": 603177,
+      "type": "skill",
+      "data": {
+        "subtitle": "int"
+      },
+      "name": "arcana",
+      "value": 1,
+      "rank": 65,
+      "message": "Arcana check: {1d20 + arcana}",
+      "formula": "intelligence + (arcana-proficiency ? proficiency : jack-of-all-trades ? (floor (proficiency / 2)) : 0) + (arcana-expertise ? proficiency : 0)",
+      "characterId": 213341
+    },
+    {
+      "id": 603213,
+      "parentId": 603212,
+      "type": "checkbox",
+      "data": {},
+      "name": "arcana-proficiency",
+      "value": "",
+      "rank": 66,
+      "characterId": 213341
+    },
+    {
+      "id": 603214,
+      "parentId": 603212,
+      "type": "checkbox",
+      "data": {},
+      "name": "arcana-expertise",
+      "value": "",
+      "rank": 67,
+      "characterId": 213341
+    },
+    {
+      "id": 603215,
+      "parentId": 603177,
+      "type": "skill",
+      "data": {
+        "subtitle": "int"
+      },
+      "name": "nature",
+      "value": 1,
+      "rank": 74,
+      "message": "Nature check: {1d20 + nature}",
+      "formula": "intelligence + (nature-proficiency ? proficiency : jack-of-all-trades ? (floor (proficiency / 2)) : 0) + (nature-expertise ? proficiency : 0)",
+      "characterId": 213341
+    },
+    {
+      "id": 603216,
+      "parentId": 603215,
+      "type": "checkbox",
+      "data": {},
+      "name": "nature-proficiency",
+      "value": "",
+      "rank": 75,
+      "characterId": 213341
+    },
+    {
+      "id": 603217,
+      "parentId": 603215,
+      "type": "checkbox",
+      "data": {},
+      "name": "nature-expertise",
+      "value": "",
+      "rank": 76,
+      "characterId": 213341
+    },
+    {
+      "id": 603218,
+      "parentId": 603177,
+      "type": "skill",
+      "data": {
+        "subtitle": "int"
+      },
+      "name": "religion",
+      "value": 1,
+      "rank": 77,
+      "message": "Religion check: {1d20 + religion}",
+      "formula": "intelligence + (religion-proficiency ? proficiency : jack-of-all-trades ? (floor (proficiency / 2)) : 0) + (religion-expertise ? proficiency : 0)",
+      "characterId": 213341
+    },
+    {
+      "id": 603219,
+      "parentId": 603218,
+      "type": "checkbox",
+      "data": {},
+      "name": "religion-proficiency",
+      "value": "",
+      "rank": 78,
+      "characterId": 213341
+    },
+    {
+      "id": 603220,
+      "parentId": 603218,
+      "type": "checkbox",
+      "data": {},
+      "name": "religion-expertise",
+      "value": "",
+      "rank": 79,
+      "characterId": 213341
+    },
+    {
+      "id": 603221,
+      "parentId": 603177,
+      "type": "skill",
+      "data": {
+        "subtitle": "int"
+      },
+      "name": "history",
+      "value": 1,
+      "rank": 68,
+      "message": "History check: {1d20 + history}",
+      "formula": "intelligence + (history-proficiency ? proficiency : jack-of-all-trades ? (floor (proficiency / 2)) : 0) + (history-expertise ? proficiency : 0)",
+      "characterId": 213341
+    },
+    {
+      "id": 603222,
+      "parentId": 603221,
+      "type": "checkbox",
+      "data": {},
+      "name": "history-proficiency",
+      "value": "",
+      "rank": 69,
+      "characterId": 213341
+    },
+    {
+      "id": 603223,
+      "parentId": 603221,
+      "type": "checkbox",
+      "data": {},
+      "name": "history-expertise",
+      "value": "",
+      "rank": 70,
+      "characterId": 213341
+    },
+    {
+      "id": 603224,
+      "parentId": 603177,
+      "type": "skill",
+      "data": {
+        "subtitle": "str"
+      },
+      "name": "athletics",
+      "value": 4,
+      "rank": 52,
+      "message": "Athletics check: {1d20 + athletics}",
+      "formula": "strength + (athletics-proficiency ? proficiency : jack-of-all-trades ? (floor (proficiency / 2)) : 0) + (athletics-expertise ? proficiency : 0)",
+      "characterId": 213341
+    },
+    {
+      "id": 603225,
+      "parentId": 603224,
+      "type": "checkbox",
+      "data": {},
+      "name": "athletics-proficiency",
+      "value": true,
+      "rank": 54,
+      "characterId": 213341
+    },
+    {
+      "id": 603226,
+      "parentId": 603224,
+      "type": "checkbox",
+      "data": {},
+      "name": "athletics-expertise",
+      "value": "",
+      "rank": 55,
+      "characterId": 213341
+    },
+    {
+      "id": 603227,
+      "parentId": 603177,
+      "type": "skill",
+      "data": {
+        "subtitle": "dex"
+      },
+      "name": "acrobatics",
+      "value": 2,
+      "rank": 56,
+      "message": "Acrobatics check: {1d20 + acrobatics}",
+      "formula": "dexterity + (acrobatics-proficiency ? proficiency : jack-of-all-trades ? (floor (proficiency / 2)) : 0) + (acrobatics-expertise ? proficiency : 0)",
+      "characterId": 213341
+    },
+    {
+      "id": 603228,
+      "parentId": 603227,
+      "type": "checkbox",
+      "data": {},
+      "name": "acrobatics-proficiency",
+      "value": "",
+      "rank": 57,
+      "characterId": 213341
+    },
+    {
+      "id": 603229,
+      "parentId": 603227,
+      "type": "checkbox",
+      "data": {},
+      "name": "acrobatics-expertise",
+      "value": "",
+      "rank": 58,
+      "characterId": 213341
+    },
+    {
+      "id": 603230,
+      "parentId": 603177,
+      "type": "skill",
+      "data": {
+        "subtitle": "dex"
+      },
+      "name": "sleight-of-hand",
+      "value": 2,
+      "rank": 59,
+      "message": "Sleight of hand check: {1d20 + sleight-of-hand}",
+      "formula": "dexterity + (sleight-of-hand-proficiency ? proficiency : jack-of-all-trades ? (floor (proficiency / 2)) : 0) + (sleight-of-hand-expertise ? proficiency : 0)",
+      "characterId": 213341
+    },
+    {
+      "id": 603231,
+      "parentId": 603230,
+      "type": "checkbox",
+      "data": {},
+      "name": "sleight-of-hand-proficiency",
+      "value": "",
+      "rank": 60,
+      "characterId": 213341
+    },
+    {
+      "id": 603232,
+      "parentId": 603230,
+      "type": "checkbox",
+      "data": {},
+      "name": "sleight-of-hand-expertise",
+      "value": "",
+      "rank": 61,
+      "characterId": 213341
+    },
+    {
+      "id": 603233,
+      "parentId": null,
+      "type": "tab-section",
+      "data": {},
+      "value": "Internal",
+      "rank": 3,
+      "characterId": 213341
+    },
+    {
+      "id": 603234,
+      "parentId": 603233,
+      "type": "title-section",
+      "data": {},
+      "value": "Char Sheet Internal",
+      "rank": 4,
+      "characterId": 213341
+    },
+    {
+      "id": 603235,
+      "parentId": 603234,
+      "type": "number",
+      "data": {},
+      "name": "attack-roll",
+      "value": 18,
+      "rank": 146,
+      "characterId": 213341
+    },
+    {
+      "id": 603236,
+      "parentId": 603234,
+      "type": "number",
+      "data": {},
+      "name": "other-roll",
+      "local": true,
+      "value": "",
+      "rank": 147,
+      "message": "",
+      "characterId": 213341
+    },
+    {
+      "id": 603237,
+      "parentId": 603234,
+      "type": "text",
+      "data": {},
+      "name": "csi-attack-suffix",
+      "value": "",
+      "rank": 148,
+      "formula": "( attack-with-advantage ? ( attack-with-disadvantage ? \"\" : \"a\" ) : (attack-with-disadvantage ? \"d\" : \"\" ) )",
+      "characterId": 213341
+    },
+    {
+      "id": 603238,
+      "parentId": 603234,
+      "type": "text",
+      "data": {},
+      "name": "csi-crit-message",
+      "value": " (Critical hit!)",
+      "rank": 149,
+      "formula": "( attack-roll < crit-on-natural ? \"\" : \" (Critical hit!)\" )",
+      "characterId": 213341
+    },
+    {
+      "id": 603239,
+      "parentId": 603234,
+      "type": "number",
+      "data": {},
+      "name": "csi-crit-bonus-dice",
+      "value": 1,
+      "rank": 150,
+      "formula": "( attack-roll >= crit-on-natural ? 1 : 0 )",
+      "characterId": 213341
+    },
+    {
+      "id": 603018,
+      "parentId": 603017,
+      "type": "number",
+      "data": {},
+      "name": "spell-attack-bonus",
+      "value": 5,
+      "rank": 0,
+      "message": "Spell attack: Raw { attack-roll = 1d20@:csi-attack-suffix: } {csi-crit-message = ( attack-roll < crit-on-natural ? \" (norm) \" : \" (crit?) \")} {csi-crit-bonus-dice = (attack-roll < crit-on-natural ? +0 : +1)} To Hit {attack-roll + spell-attack-bonus } save DC {spell-save-dc}",
+      "formula": "proficiency + @:spell-primary-stat:",
+      "characterId": 213341
+    },
+    {
+      "id": 603097,
+      "parentId": 603094,
+      "type": "saving-throw",
+      "data": {},
+      "name": "constitution-save",
+      "value": -1,
+      "rank": 44,
+      "message": "CON save: {1d20 + constitution-save}",
+      "formula": "constitution + (constitution-save-proficiency ? proficiency : 0)",
+      "characterId": 213341
+    },
+    {
+      "id": 603126,
+      "parentId": 603108,
+      "type": "number",
+      "data": {},
+      "name": "constitution",
+      "value": -1,
+      "rank": 10,
+      "message": "constitution check: {1d20 + constitution}",
+      "formula": "floor((totalCon - 10)/2)",
+      "characterId": 213341
+    },
+    {
+      "id": 603151,
+      "parentId": 603108,
+      "type": "number",
+      "data": {},
+      "name": "BaseWis",
+      "value": 16,
+      "rank": 27,
+      "formula": "RolledWis + RaceWis + BackgroundWis + LevelingWis + SpecialWis",
+      "characterId": 213341
+    },
+    {
+      "id": 603184,
+      "parentId": 603177,
+      "type": "skill",
+      "data": {
+        "subtitle": "wis"
+      },
+      "name": "animal-handling",
+      "value": 5,
+      "rank": 80,
+      "message": "Animal handling check: {1d20 + animal-handling}",
+      "formula": "wisdom + (animal-handling-proficiency ? proficiency : jack-of-all-trades ? (floor (proficiency / 2)) : 0) + (animal-handling-expertise ? proficiency : 0)",
+      "characterId": 213341
+    },
+    {
+      "id": 603187,
+      "parentId": 603177,
+      "type": "skill",
+      "data": {
+        "subtitle": "wis"
+      },
+      "name": "insight",
+      "value": 3,
+      "rank": 83,
+      "message": "Insight check: {1d20 + insight}",
+      "formula": "wisdom + (insight-proficiency ? proficiency : jack-of-all-trades ? (floor (proficiency / 2)) : 0) + (insight-expertise ? proficiency : 0)",
+      "characterId": 213341
+    },
+    {
+      "id": 603190,
+      "parentId": 603177,
+      "type": "skill",
+      "data": {
+        "subtitle": "wis"
+      },
+      "name": "medicine",
+      "value": 3,
+      "rank": 86,
+      "message": "Medicine check: {1d20 + medicine}",
+      "formula": "wisdom + (medicine-proficiency ? proficiency : jack-of-all-trades ? (floor (proficiency / 2)) : 0) + (medicine-expertise ? proficiency : 0)",
+      "characterId": 213341
+    },
+    {
+      "id": 603193,
+      "parentId": 603177,
+      "type": "skill",
+      "data": {
+        "subtitle": "wis"
+      },
+      "name": "perception",
+      "value": 3,
+      "rank": 89,
+      "message": "Perception check: {1d20 + perception}",
+      "formula": "wisdom + (perception-proficiency ? proficiency : jack-of-all-trades ? (floor (proficiency / 2)) : 0) + (perception-expertise ? proficiency : 0)",
+      "characterId": 213341
+    },
+    {
+      "id": 603196,
+      "parentId": 603177,
+      "type": "skill",
+      "data": {
+        "subtitle": "wis"
+      },
+      "name": "survival",
+      "value": 3,
+      "rank": 92,
+      "message": "Survival check: {1d20 + survival}",
+      "formula": "wisdom + (survival-proficiency ? proficiency : jack-of-all-trades ? (floor (proficiency / 2)) : 0) + (survival-expertise ? proficiency : 0)",
+      "characterId": 213341
+    },
+    {
+      "id": 603129,
+      "parentId": 603108,
+      "type": "number",
+      "data": {},
+      "name": "charisma",
+      "value": 1,
+      "rank": 34,
+      "message": "charisma check: {1d20 + charisma}",
+      "formula": "floor((totalCha - 10)/2)",
+      "characterId": 213341
+    },
+    {
+      "id": 603159,
+      "parentId": 603108,
+      "type": "number",
+      "data": {},
+      "name": "BaseCha",
+      "value": 12,
+      "rank": 36,
+      "formula": "RolledCha + RaceCha + BackgroundCha + LevelingCha + SpecialCha",
+      "characterId": 213341
+    },
+    {
+      "id": 603168,
+      "parentId": 603108,
+      "type": "number",
+      "data": {},
+      "name": "TotalCha",
+      "value": 12,
+      "rank": 35,
+      "formula": "BaseCha + GearCha + TempCha",
+      "characterId": 213341
+    },
+    {
+      "id": 603199,
+      "parentId": 603177,
+      "type": "skill",
+      "data": {
+        "subtitle": "cha"
+      },
+      "name": "deception",
+      "value": 1,
+      "rank": 95,
+      "message": "Deception check: {1d20 + deception}",
+      "formula": "charisma + (deception-proficiency ? proficiency : jack-of-all-trades ? (floor (proficiency / 2)) : 0) + (deception-expertise ? proficiency : 0)",
+      "characterId": 213341
+    },
+    {
+      "id": 787198,
+      "parentId": 787197,
+      "type": "checkbox",
+      "data": {},
+      "name": "use-thief-tools-proficiency",
+      "value": false,
+      "rank": 1,
+      "characterId": 213341
+    },
+    {
+      "id": 787199,
+      "parentId": 787197,
+      "type": "checkbox",
+      "data": {},
+      "name": "use-thief-tools-expertise",
+      "value": false,
+      "rank": 2,
+      "characterId": 213341
+    },
+    {
+      "id": 787197,
+      "parentId": 603177,
+      "type": "skill",
+      "data": {
+        "subtitle": "dex"
+      },
+      "name": "use-thief-tools",
+      "value": 2,
+      "rank": 108,
+      "message": "Use thieves tools (open lock, disarm trap, etc): {1d20 + use-thief-tools}",
+      "formula": "dexterity + (use-thief-tools-proficiency ? 1 : 0) * proficiency + (use-thief-tools-expertise ? 1 : 0) * proficiency",
+      "characterId": 213341
+    },
+    {
+      "id": 787876,
+      "parentId": 603071,
+      "type": "number",
+      "data": {},
+      "name": "sneak-attack-dice",
+      "value": 2,
+      "rank": 1,
+      "message": "Sneak attack damage (if eligible) {@:sneak-attack-dice:d6}",
+      "formula": "floor((level + 1)/2)",
+      "characterId": 213341
+    }
+  ],
+  "private": false,
+  "type": "tableplop-character-v2"
+}
